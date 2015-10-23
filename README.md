@@ -1,6 +1,10 @@
-# LeetCode
+# LeetCode Questions And Answers
 
-### leetcode questions and answers
-| # | questions | Answer | 
-|---| ----- | -------- |
-|292|[Nim Game](https://leetcode.com/problems/nim-game/)  | [Java](./java/src/main/nimGame.java)|
+### Easy Section 
+| # | question | Answer | LeetCode Link |
+|---| ----- | -------- | ------ |
+|292|[Nim Game](./java/src/main/nimGame/Question.md) | [Java](./java/src/main/nimGame.java)| [Nim Game](https://leetcode.com/problems/nim-game/)|
+
+### Medium Section 
+
+### Hard Section
