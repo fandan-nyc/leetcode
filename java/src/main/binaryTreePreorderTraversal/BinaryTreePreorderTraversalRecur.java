@@ -9,19 +9,13 @@
  */
 public class Solution {
     public List<Integer> preorderTraversal(TreeNode root) {
-        if(root == null)
-        {
-            return new ArrayList<Integer>();
+        List<Integer> result = new ArrayList<Integer>();
+        if(root != null)
+       {
+            result.add(root.val);
+            result.addAll(preorderTraversal(root.left));
+            result.addAll(preorderTraversal(root.right));
         }
-        else
-        {
-            List<Integer> left = preorderTraversal(root.left);
-            left.add(0,root.val);
-            if(preorderTraversal(root.right) != null)
-            {
-            left.addAll(preorderTraversal(root.right));
-            }
-            return left;
-        }
+        return result;
     }
 }
