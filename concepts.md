@@ -5,7 +5,7 @@
 2. what is inorder traversal ?
    Answer: symmetric. left -> middle -> right
 3. what is post order ?
-   Answer: left -> middle -> right
+   Answer: left -> right -> middle
 
 **Java API**
 <hr>
