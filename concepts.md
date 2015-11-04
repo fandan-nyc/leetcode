@@ -11,3 +11,5 @@
 <hr>
 1. how to fill an array with specific value; 
    Answer: Arrays.fill(array, -1);
+2. how to copy an array: x.clone();
+3. 
