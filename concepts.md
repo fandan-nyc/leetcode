@@ -13,6 +13,7 @@
    Answer: Arrays.fill(array, -1);
 2. how to copy an array: x.clone();
 3. Integer.toString(X);
+4. StringBuffer x =  new StringBuffer(); x.insert( 5, 't');
 
 **Missed Question**
 question 145, iterative and Morris, PostOrder
