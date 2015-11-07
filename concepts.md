@@ -14,7 +14,8 @@
 2. how to copy an array: x.clone();
 3. Integer.toString(X);
 4. StringBuffer x =  new StringBuffer(); x.insert( 5, 't');
-5. Arrays.asList(1,2,3,4); # the list length fixed. to have an array which can change length, List<String> strings = new ArrayList<>(asList("foo", "bar", "baz"));
+5. Arrays.asList(1,2,3,4); # the list length fixed. 
+6. to have an array which can change length, List<String> strings = new ArrayList<>(asList("foo", "bar", "baz"));
 
 
 **Missed Question**
