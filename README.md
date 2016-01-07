@@ -49,6 +49,7 @@
 |[202](https://leetcode.com/problems/happy-number/)|[happy number](java/src/main/happyNumber/question.md)|[Java](java/src/main/happyNumber/HappyNumber.java)|easy|
 |[206](https://leetcode.com/problems/reverse-linked-list/)|[reverse link list](./java/src/main/reverseLinkList/question.md)|[Java - recursive](./java/src/main/reverseLinkList/ReverseLinkListRecurr.java)<br/>[Java - Iterative](./java/src/main/reverseLinkList/ReverseLinkListIter.java)| easy |
 |[217](https://leetcode.com/problems/contains-duplicate/)|[Contains Duplicate]|[C++](./cpp/217ContainsDuplicate.cpp) | easy |
+|[226](https://leetcode.com/problems/invert-binary-tree/)|[Invert Binary Tree]|[C++](./cpp/226InvertBinaryTree.cpp)| easy |
 |[232](https://leetcode.com/problems/implement-queue-using-stacks/)|[implement queue using stack](java/src/main/queueUsingStack/question.md)|[java](java/src/main/queueUsingStack/queueUsingStack.java)|easy|
 |[235](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Lowest Common Ancestor of a Binary Search Tree]|[C++](./cpp/235LowestCommonAncestorOfABST.cpp) |easy|
 |[237](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Delete Node in a Linked List]|[C++](./cpp/237DeleteNodeInLinkedList.cpp)|easy|
@@ -58,6 +59,6 @@
 |[260](https://leetcode.com/problems/single-number-iii/) |[single number III](./java/src/main/singleNumberIII/question.md)|[Java - space O(1) ugly](./java/src/main/singleNumberIII/singleNumberIIIUgly.java)<br/> [Java - space O(1) pretty](./java/src/main/singleNumberIII/singleNumberIIIPretty.java)<br/>[C++](./cpp/260SingleNumberIII.cpp)|medium|
 |[268](https://leetcode.com/problems/missing-number/)|[missing number](java/src/main/missingNumber/question.md)|[Java - time O(n), space O(1)](java/src/main/missingNumber/missingNumberA.java) <br/> [Java - better coding style](java/src/main/missingNumber/missingNumberA.java)| medium|
 |[278](https://leetcode.com/problems/first-bad-version/)| [first bad version](java/src/main/firstBadVersion/question.md)|[Java](java/src/main/firstBadVersion/FirstBadVersion.java)| easy|
-|[283](https://leetcode.com/problems/move-zeroes/) |[move zeros](java/src/main/moveZero/question.md)| [Java O(n)](java/src/main/moveZero/MoveZeroSolution1.java)<br/> [Java - O(n) better sol](java/src/main/moveZero/MoveZeroBetter.java)| easy |
+|[283](https://leetcode.com/problems/move-zeroes/) |[move zeros](java/src/main/moveZero/question.md)| [Java O(n)](java/src/main/moveZero/MoveZeroSolution1.java)<br/> [Java - O(n) better sol](java/src/main/moveZero/MoveZeroBetter.java)<br/>[C++](./cpp/283MoveZeros.cpp)| easy |
 |[287](https://leetcode.com/problems/find-the-duplicate-number/)|[find the duplicate number](java/src/main/findDupNumber/question.md)|[Java - bloom filter](java/src/main/findDupNumber/bloomFilter.java)<br/>[Java - invert in place](java/src/main/findDupNumber/invert.java)<br/>[Java - tortoise and hare](java/src/main/findDupNumber/tortoiseAndHare.java)|hard|
-|[292](https://leetcode.com/problems/nim-game/) |[Nim Game](./java/src/main/nimGame/Question.md)| [Java](./java/src/main/nimGame/nimGame.java)| easy |
+|[292](https://leetcode.com/problems/nim-game/) |[Nim Game](./java/src/main/nimGame/Question.md)| [Java](./java/src/main/nimGame/nimGame.java)<br/>[C++](./cpp/292NimGame.cpp)| easy |

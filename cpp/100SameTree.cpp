@@ -1,12 +1,16 @@
 /*
-Given two binary trees, write 
-a function to check if they are 
-equal or not.
+  File Name: 100SameTree.cpp
+  Xiaolong Zhang
 
-Two binary trees are considered 
-equal if they are structurally 
-identical and the nodes have the 
-same value. 
+  Question:
+  Given two binary trees, write 
+  a function to check if they are 
+  equal or not.
+
+  Two binary trees are considered 
+  equal if they are structurally 
+  identical and the nodes have the 
+  same value. 
 */
 
 /**
@@ -21,10 +25,12 @@ same value.
 class Solution {
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
-        if(p==NULL&&q==NULL)return true;
-        if(p==NULL||q==NULL)return false;
-        else
-        return (p->val==q->val)&&isSameTree(p->left, q->left)&&isSameTree(p->right, q->right);
-        
+        if(p == NULL && q == NULL)
+        	return true;
+        if(p == NULL || q == NULL)
+        	return false;
+        else if(p->val == q->val)
+        	return isSameTree(p->left, q->left) && isSameTree(p->right, q->right);
+        else return false;
     }
 };
