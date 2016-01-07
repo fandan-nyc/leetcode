@@ -31,22 +31,17 @@
  */
 class Solution {
 public:
-    vector<int> inorderTraversal(TreeNode* root) {
-        stack<TreeNode*> myStack;
-        vector<int> res;
-        while(root!=NULL || !myStack.empty()){
-            if(root!=NULL){
-                myStack.push(root);
-                root=root->left;
-            }
-            else{
-                root=myStack.top();
-                myStack.pop();
-                res.push_back(root->val);
-                root=root->right;
-            }
+    void recursing(TreeNode* root, vector<int>& res){
+        if(root!=NULL){
+            recursing(root->left, res);
+            res.push_back(root->val);
+            recursing(root->right,res);
             
         }
-        return res;     
+    }
+    vector<int> inorderTraversal(TreeNode* root) {    
+        vector<int>res;
+        recursing(root, res);
+        return res;        
     }
 };
