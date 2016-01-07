@@ -1,8 +1,12 @@
 /*
- Given a linked list, determine if it has a cycle in it.
+    File Name: 141LinkedListCycle.cpp
+    Xiaolong Zhang
 
-Follow up:
-Can you solve it without using extra space? 
+    Question:
+    Given a linked list, determine if it has a cycle in it.
+
+    Follow up:
+    Can you solve it without using extra space? 
 */
 
 /**
