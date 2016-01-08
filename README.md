@@ -6,6 +6,7 @@
 |[002](https://leetcode.com/problems/add-two-numbers/)|[add two numbers](java/src/main/addTwoNumbers/question.md)|[Java](java/src/main/addTwoNumbers/solution.java)| medium|
 |[003](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Longest Substring Without Repeating Characters](java/src/main/maxSubstringWithoutRepeat/question.md)|[Java](java/src/main/maxSubstringWithoutRepeat/solution.java)|medium|
 |[004](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[median of two sorted arrays](java/src/main/medianOfTwoSortedArrays/question.md)|[Java O(log(m+n))](java/src/main/medianOfTwoSortedArrays/solution.java)|hard|
+|[005](https://leetcode.com/problems/longest-palindromic-substring/)|[longest palindrome substring](java/src/main/longestPalindromeSubstring/question.md)|[Java O(n^3)](java/src/main/longestPalindromeSubstring/solution1.java)<br/>|medium|
 |[011](https://leetcode.com/problems/container-with-most-water/)|[container with the most water](java/src/main/11ContainerWithMostWater/question.md)|[Java space O(1) time O(n)](java/src/main/11ContainerWithMostWater/ContainerWithMostWater.java)|medium|
 |[012](https://leetcode.com/problems/integer-to-roman/)|[Intger to roman](./java/src/main/integerToRoman/question.md)|[Java](java/src/main/integerToRoman/IntegerToRoman.java)| medium |
 |[013](https://leetcode.com/problems/roman-to-integer/)|[Roman to Integer](./java/src/main/romanToInt/question.md)| [C++](./cpp/013RomanToInteger.cpp)<br/>[Java](./java/src/main/romanToInt/RomanToInt.java)| easy |
