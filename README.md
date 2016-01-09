@@ -60,6 +60,7 @@
 |[206](https://leetcode.com/problems/reverse-linked-list/)|[reverse link list](./java/src/main/reverseLinkList/question.md)|[Java - recursive](./java/src/main/reverseLinkList/ReverseLinkListRecurr.java)<br/>[Java - Iterative](./java/src/main/reverseLinkList/ReverseLinkListIter.java)<br/>[C++ recursive](./cpp/206ReverseLinkedList.cpp)<br/>[C++ stack](./cpp/206ReverseLinkedList_s.cpp)| easy |
 |[217](https://leetcode.com/problems/contains-duplicate/)|[Contains Duplicate]|[C++](./cpp/217ContainsDuplicate.cpp) | easy |
 |[226](https://leetcode.com/problems/invert-binary-tree/)|[Invert Binary Tree]|[C++](./cpp/226InvertBinaryTree.cpp)| easy |
+|[231](https://leetcode.com/problems/power-of-two/)|[Power Of Two]()|[C++](./cpp/231PowerOfTwo.cpp)|easy|
 |[232](https://leetcode.com/problems/implement-queue-using-stacks/)|[implement queue using stack](java/src/main/queueUsingStack/question.md)|[java](java/src/main/queueUsingStack/queueUsingStack.java)|easy|
 |[235](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Lowest Common Ancestor of a Binary Search Tree]|[C++](./cpp/235LowestCommonAncestorOfABST.cpp) |easy|
 |[237](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Delete Node in a Linked List]|[C++](./cpp/237DeleteNodeInLinkedList.cpp)|easy|
