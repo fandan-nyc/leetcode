@@ -17,9 +17,15 @@
 5. Arrays.asList(1,2,3,4); # the list length fixed. 
 6. to have an array which can change length, List<String> strings = new ArrayList<>(asList("foo", "bar", "baz"));
 
+**things to implement**
+<hr>
+1. merge sort
+
 **注意事项**
 <hr>
 1. 写好之后检查自己的程序，不能依靠build 来检验
 2. 自己写几个use case test 一下
 3. 尽量想清楚，精简自己的程序
+
+**questions missed** 
 
