@@ -11,6 +11,7 @@
 |[007](https://leetcode.com/problems/reverse-integer/)|[reverse int](java/src/main/reverseInt/question.md)|[Java](java/src/main/reverseInt/solution.java)|easy|
 |[008](https://leetcode.com/problems/string-to-integer-atoi/)|[string to integer](java/src/main/strToInt/question.md)|[Java](java/src/main/strToInt/solution.java)|easy|
 |[009](https://leetcode.com/problems/palindrome-number/)|[palindrome number](java/src/main/palindromeNumber/question.md)|[Java](java/src/main/palindromeNumber/solution.java)|easy|
+|[010](https://leetcode.com/problems/regular-expression-matching/)|[regular expression](java/src/main/regularExp/question.md)|[Java O(N^2) DP](java/src/main/regularExp/solution.java)|hard|
 |[011](https://leetcode.com/problems/container-with-most-water/)|[container with the most water](java/src/main/11ContainerWithMostWater/question.md)|[Java space O(1) time O(n)](java/src/main/11ContainerWithMostWater/ContainerWithMostWater.java)|medium|
 |[012](https://leetcode.com/problems/integer-to-roman/)|[Intger to roman](./java/src/main/integerToRoman/question.md)|[Java](java/src/main/integerToRoman/IntegerToRoman.java)| medium |
 |[013](https://leetcode.com/problems/roman-to-integer/)|[Roman to Integer](./java/src/main/romanToInt/question.md)| [C++](./cpp/013RomanToInteger.cpp)<br/>[Java](./java/src/main/romanToInt/RomanToInt.java)| easy |
