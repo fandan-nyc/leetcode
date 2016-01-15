@@ -22,6 +22,7 @@
 <hr>
 1. merge sort
 2. leetcode question 18, better solutions in discussion
+3. https://leetcode.com/discuss/74780/my-java-solution-using-min-heaps-implemented-by-myself 
 
 **注意事项**
 <hr>
