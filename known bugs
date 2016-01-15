@@ -1,0 +1,2 @@
+question 20. did not consider problem: ([)]
+             return counter++; would return counter, not counter+1. ++counter would work
