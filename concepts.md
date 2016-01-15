@@ -17,9 +17,10 @@
 5. Arrays.asList(1,2,3,4); # the list length fixed. 
 6. to have an array which can change length, List<String> strings = new ArrayList<>(asList("foo", "bar", "baz"));
 
-**things to implement**
+**things to implement and learn**
 <hr>
 1. merge sort
+2. leetcode question 18, better solutions in discussion
 
 **注意事项**
 <hr>
