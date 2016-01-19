@@ -26,8 +26,7 @@ public:
         while(fastIter->next!=NULL && fastIter->next->next!=NULL){
             iter=iter->next;
             fastIter=fastIter->next->next;
-            if(iter==fastIter)return true;
-            
+            if(iter==fastIter)return true;   
         }
         return false;
     }
