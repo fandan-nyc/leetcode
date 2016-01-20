@@ -24,6 +24,7 @@
 2. leetcode question 18, better solutions in discussion
 3. https://leetcode.com/discuss/74780/my-java-solution-using-min-heaps-implemented-by-myself 
 4. KMP algorithm
+5. BM (boyer-moore) algorithm
 
 **注意事项**
 <hr>
