@@ -27,6 +27,7 @@
 4. KMP algorithm
 5. BM (boyer-moore) algorithm
 6. why hashMap, set .. cannot use primary data type
+7. Boyer–Moore majority vote algorithm time O(n) space O(logn)
 
 **注意事项**
 <hr>
