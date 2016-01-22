@@ -17,6 +17,7 @@
 5. Arrays.asList(1,2,3,4); # the list length fixed. 
 6. to have an array which can change length, List<String> strings = new ArrayList<>(asList("foo", "bar", "baz"));
 7. you should do Stack<Character> but Stack<char> would fail for sure
+8. queue --> linkedList
 
 **things to implement and learn**
 <hr>
