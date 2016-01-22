@@ -26,6 +26,7 @@
 3. https://leetcode.com/discuss/74780/my-java-solution-using-min-heaps-implemented-by-myself 
 4. KMP algorithm
 5. BM (boyer-moore) algorithm
+6. why hashMap, set .. cannot use primary data type
 
 **注意事项**
 <hr>
