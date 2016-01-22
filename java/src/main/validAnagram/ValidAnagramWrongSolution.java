@@ -1,5 +1,8 @@
 public class Solution {
     public boolean isAnagram(String s, String t) {
+        if(s == null || t== null){
+            return false;
+        }
         long sSum  = 0 ; 
         for(Character i : s.toCharArray())
         {
