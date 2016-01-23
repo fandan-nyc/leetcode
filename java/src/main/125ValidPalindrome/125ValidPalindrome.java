@@ -1,55 +1,38 @@
 public class Solution {
     public boolean isPalindrome(String s) {
-        int start = 0; 
-        int end = s.length() -1; 
-        while( start < end)
-        {
-            if(!isValid(s.charAt(start)))
-            {
-                start ++;
+        if(s == null || s.length() <= 1)
+            return true;
+        int low = 0;
+        int high = s.length() -1;
+        s = s.toLowerCase();
+        while(low <= high){
+            while(high >= low && !isValid(s.charAt(high))){
+                high--;
             }
-            else if ( ! isValid(s.charAt(end)))
-            {
-                end --;
+             while( low <= high && !isValid(s.charAt(low))){
+                low++;
             }
-            else
-            {
-                if(checkVal(s.charAt(start)) != checkVal(s.charAt(end)))
-                {
-                    return false ;
-                }
-                start ++;
-                end --;
+            if(high < low){
+                return true;
             }
+            if(Character.toLowerCase(s.charAt(high)) != Character.toLowerCase(s.charAt(low))){
+                return false;
+            }
+            low++;
+            high --;
         }
         return true;
     }
     
-    private boolean isCapital( char i)
-    {
-        return i >= 'A' && i <= 'Z';
-    }
-    private boolean isLowerCase(char i)
-    {
-        return i >= 'a' && i <= 'z';
+    private boolean isAlphabetical(char s){
+        return (s >= 'a' && s <= 'z') || (s >= 'A' && s <='Z'); 
     }
     
-    private boolean isNumber(char i)
-    {
-        return i >= '0' && i <= '9';
+    private boolean isNum(char s){
+        return s >= '0' && s <= '9';
     }
     
-    private boolean isValid(char i)
-    {
-        return isCapital(i) || isLowerCase(i) || isNumber(i);
+    private boolean isValid(char s){
+        return isAlphabetical(s) || isNum(s);
     }
-    
-    private int checkVal(char i)
-    {
-        if(isNumber(i))
-        {
-            return i;
-        }
-        return isCapital(i) ? (i - 'A') : (i -'a');
-    }   
 }
