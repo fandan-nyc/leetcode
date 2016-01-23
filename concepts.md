@@ -18,6 +18,8 @@
 6. to have an array which can change length, List<String> strings = new ArrayList<>(asList("foo", "bar", "baz"));
 7. you should do Stack<Character> but Stack<char> would fail for sure
 8. queue --> linkedList
+9. Character.toLowerCase(char)
+10. \W mean non-word character \w mean word character
 
 **things to implement and learn**
 <hr>
