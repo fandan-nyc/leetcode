@@ -19,7 +19,7 @@
 7. you should do Stack<Character> but Stack<char> would fail for sure
 8. queue --> linkedList
 9. Character.toLowerCase(char)
-10. \W mean non-word character \w mean word character
+10. \W mean non-word character \w mean word character, x.replace("\\W","").toLowerCase();
 
 **things to implement and learn**
 <hr>
