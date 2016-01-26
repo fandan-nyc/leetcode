@@ -42,6 +42,7 @@
 |[063](https://leetcode.com/problems/unique-paths-ii/)|[unique path II](java/src/main/uniquePathII/question.md)|[Java](java/src/main/uniquePathII/UniquePathII.java)|medium|
 |[064](https://leetcode.com/problems/minimum-path-sum/)|[minimum path sum](java/src/main/minPathSum/question.md) |[Java - In place](java/src/main/minPathSum/MinPathSumInPlace.java)<br/>[Java - O(mn)](java/src/main/minPathSum/MinPathSumOn.java)| medium|
 |[066](https://leetcode.com/problems/plus-one/)|[plus one](java/src/main/plusOne/question.md)|[java](java/src/main/plusOne/PlusOne.java)|easy|
+|[070](https://leetcode.com/problems/climbing-stairs/)|[climb stairs](java/src/main/climbStair/question.md)|[Java - iter](java/src/main/climbStair/iter.java)|easy|
 |[071](https://leetcode.com/problems/simplify-path/)|[simplify path](java/src/main/71SimplifyPath/question.md)|[java](java/src/main/71SimplifyPath/SimplifyPath.java)|medium|
 |[083](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[remove duplicates from sorted list](java/src/main/removeDuplicatesFromSortedList/question.md)|[Java - Ugly](java/src/main/removeDuplicatesFromSortedList/RemoveDuplicatesFromSortedListUgly.java)<br/>[Java - Pretty](java/src/main/removeDuplicatesFromSortedList/RemoveDuplicatesFromSortedListPretty.java)<br/>[C++](./cpp/083RemoveDuplicatesFromSortedList.cpp)|easy|
 |[086](https://leetcode.com/problems/partition-list/)|[partition list](java/src/main/partitionList/question.md)|[java](java/src/main/partitionList/PartitionList.java)|medium|
