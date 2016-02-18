@@ -68,7 +68,7 @@
 |[171](https://leetcode.com/problems/excel-sheet-column-number/)|[Excel Sheet Column Number](java/src/main/excelSheetColumnNum/question.md)|[C++](./cpp/171ExcelSheetColumnNumber.cpp)<br>[Java](java/src/main/excelSheetColumnNum/solution.java)| easy |
 |[172](https://leetcode.com/problems/factorial-trailing-zeroes/)|[factorial trailing zeros](java/src/main/factorialTrailingZero/question.md)| [Java - log(n)](java/src/main/factorialTrailingZero/FactorialTrailingZero.java)| easy |
 |[191](https://leetcode.com/problems/number-of-1-bits/)|[Number of 1 Bits](java/src/main/numberOfBits/question.md)|[C++](./cpp/191NumberOfOneBits.cpp)<br>[Java](java/src/main/numberOfBits/solution.java)| easy |
-|[198](https://leetcode.com/problems/house-robber/)|[house robber](java/src/main/houseRobber/question.md)|[Java DP](java/src/main/houseRobber/solution.java)|easy|
+|[198](https://leetcode.com/problems/house-robber/)|[house robber](java/src/main/houseRobber/question.md)|[Java DP](java/src/main/houseRobber/solution.java)<br>[Java better code](java/src/main/houseRobber/betterCode.java)|easy|
 |[200](https://leetcode.com/problems/number-of-islands/)|[number of islands](java/src/main/200NumOfIslands/question.md)|[Java - DSF](java/src/main/200NumOfIslands/200NumOfIslands.java)|medium|
 |[202](https://leetcode.com/problems/happy-number/)|[happy number](java/src/main/happyNumber/question.md)|[Java](java/src/main/happyNumber/HappyNumber.java)|easy|
 |[203](https://leetcode.com/problems/remove-linked-list-elements/)|[remove element from linked list](java/src/main/removeLinkedListEle/question.md)|[Java](java/src/main/removeLinkedListEle/solution.java)||easy|
