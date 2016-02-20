@@ -105,5 +105,6 @@
 |[290](https://leetcode.com/problems/word-pattern/)|[word pattern](java/src/main/wordPattern/question.md)|[Java](java/src/main/wordPattern/solution.java)|easy|
 |[292](https://leetcode.com/problems/nim-game/) |[Nim Game](./java/src/main/nimGame/Question.md)| [Java](./java/src/main/nimGame/nimGame.java)<br/>[C++](./cpp/292NimGame.cpp)| easy |
 |[299](https://leetcode.com/problems/bulls-and-cows/)|[bulls and cows](java/src/main/bullAndCows/question.md)|[Java](java/src/main/bullAndCows/solution.java)|easy|
+|[303](https://leetcode.com/problems/range-sum-query-immutable/)|[range sum query](java/src/main/rangeSumQuery/question.md)|[Java](java/src/main/rangeSumQuery/solution.java)|easy|
 |[326](https://leetcode.com/problems/power-of-three/)|[power of three](java/src/main/powerOfThree/question.md)|[Java - recur](java/src/main/powerOfThree/recur.java)<br>[Java - iter](java/src/main/powerOfThree/iter.java)|easy|
 |[328](https://leetcode.com/problems/odd-even-linked-list/)|[odd even linked list](java/src/main/oddEvenLinkedList/question.md)|[Java solution](java/src/main/oddEvenLinkedList/solution.java)|easy|
