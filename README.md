@@ -99,6 +99,7 @@
 |[278](https://leetcode.com/problems/first-bad-version/)| [first bad version](java/src/main/firstBadVersion/question.md)|[Java](java/src/main/firstBadVersion/FirstBadVersion.java)| easy|
 |[283](https://leetcode.com/problems/move-zeroes/) |[move zeros](java/src/main/moveZero/question.md)| [Java O(n)](java/src/main/moveZero/MoveZeroSolution1.java)<br/> [Java - O(n) better sol](java/src/main/moveZero/MoveZeroBetter.java)<br/>[C++](./cpp/283MoveZeros.cpp)| easy |
 |[287](https://leetcode.com/problems/find-the-duplicate-number/)|[find the duplicate number](java/src/main/findDupNumber/question.md)|[Java - bloom filter](java/src/main/findDupNumber/bloomFilter.java)<br/>[Java - invert in place](java/src/main/findDupNumber/invert.java)<br/>[Java - tortoise and hare](java/src/main/findDupNumber/tortoiseAndHare.java)|hard|
+|[290](https://leetcode.com/problems/word-pattern/)|[word pattern](java/src/main/wordPattern/question.md)|[Java](java/src/main/wordPattern/solution.java)|easy|
 |[292](https://leetcode.com/problems/nim-game/) |[Nim Game](./java/src/main/nimGame/Question.md)| [Java](./java/src/main/nimGame/nimGame.java)<br/>[C++](./cpp/292NimGame.cpp)| easy |
 |[299](https://leetcode.com/problems/bulls-and-cows/)|[bulls and cows](java/src/main/bullAndCows/question.md)|[Java](java/src/main/bullAndCows/solution.java)|easy|
 |[326](https://leetcode.com/problems/power-of-three/)|[power of three](java/src/main/powerOfThree/question.md)|[Java - recur](java/src/main/powerOfThree/recur.java)<br>[Java - iter](java/src/main/powerOfThree/iter.java)|easy|
