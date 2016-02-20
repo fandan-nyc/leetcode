@@ -21,6 +21,7 @@
 9. Character.toLowerCase(char)
 10. \W mean non-word character \w mean word character, x.replaceAll("\\W","").toLowerCase();
 11. >>> zero fill right shift. (We do not have <<< at all). for example, 60 (111100) zero fill right shift 2 should be 0000 1111, which is 15
+12. Set x = new HashSet<Integer>(); x.add(12) return true when 12 is not in x and returns false when 12 is in x. 
 
 **things to implement and learn**
 <hr>
