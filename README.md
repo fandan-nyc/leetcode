@@ -90,6 +90,7 @@
 |[223](https://leetcode.com/problems/rectangle-area/)|[rectangle area](java/src/main/rectangleArea/question.md)|[Java](java/src/main/rectangleArea/solution.java)|easy|
 |[225](https://leetcode.com/problems/implement-stack-using-queues/)|[implement stack using queue](java/src/main/implementStackUsingQueue/question.md)|[Java](java/src/main/implementStackUsingQueue/solution.java)|easy|
 |[226](https://leetcode.com/problems/invert-binary-tree/)|[Invert Binary Tree](java/src/main/revertBinaryTree/question.md)|[C++](./cpp/226InvertBinaryTree.cpp)<br>[Java - recursive](java/src/main/revertBinaryTree/recursive.java)<br>[Java - Iterative](java/src/main/revertBinaryTree/iterative.java)| easy |
+|[228](https://leetcode.com/problems/summary-ranges/)|[summary ranges](java/src/main/summaryRanges/question.md)|[Java](java/src/main/summaryRanges/solution.java)|easy|
 |[231](https://leetcode.com/problems/power-of-two/)|[Power Of Two](java/src/main/powerOfTwo/question.md)|[C++](./cpp/231PowerOfTwo.cpp)<br>[Java](java/src/main/powerOfTwo/solution.java)|easy|
 |[232](https://leetcode.com/problems/implement-queue-using-stacks/)|[implement queue using stack](java/src/main/queueUsingStack/question.md)|[java](java/src/main/queueUsingStack/queueUsingStack.java)|easy|
 |[234](https://leetcode.com/problems/palindrome-linked-list/)|[palindrome linked list](java/src/main/palindromeLinkedList/question.md)|[Java](java/src/main/palindromeLinkedList/solution.java)|easy|
