@@ -111,6 +111,7 @@
 |[292](https://leetcode.com/problems/nim-game/) |[Nim Game](./java/src/main/nimGame/Question.md)| [Java](./java/src/main/nimGame/nimGame.java)<br/>[C++](./cpp/292NimGame.cpp)| easy |
 |[299](https://leetcode.com/problems/bulls-and-cows/)|[bulls and cows](java/src/main/bullAndCows/question.md)|[Java](java/src/main/bullAndCows/solution.java)|easy|
 |[303](https://leetcode.com/problems/range-sum-query-immutable/)|[range sum query](java/src/main/rangeSumQuery/question.md)|[Java](java/src/main/rangeSumQuery/solution.java)|easy|
+|[318](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[max product of the word length](java/src/main/maxProductOfWordLength/question.md)|[Java](java/src/main/maxProductOfWordLength/solution.java)|medium|
 |[319](https://leetcode.com/problems/bulb-switcher/)|[bulb switcher](java/src/main/bulbSwitcher/question.md)|[Java - solution 1 slow](java/src/main/bulbSwitcher/solution1.java)<br>[Java - solution 2 fast](java/src/main/bulbSwitcher/solution2.java)|medium|
 |[326](https://leetcode.com/problems/power-of-three/)|[power of three](java/src/main/powerOfThree/question.md)|[Java - recur](java/src/main/powerOfThree/recur.java)<br>[Java - iter](java/src/main/powerOfThree/iter.java)|easy|
 |[328](https://leetcode.com/problems/odd-even-linked-list/)|[odd even linked list](java/src/main/oddEvenLinkedList/question.md)|[Java solution](java/src/main/oddEvenLinkedList/solution.java)|easy|
