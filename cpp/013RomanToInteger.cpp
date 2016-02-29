@@ -16,8 +16,8 @@
 
 class Solution {
 public:
-    int getValue(char oneChar){
-        switch(oneChar){
+    int getValue(char value_char){
+        switch(value_char){
             case 'I':
                 return 1;
             case 'V':
@@ -35,26 +35,17 @@ public:
         }
     }
     int romanToInt(string s) {
-        stack<int> myStack;
-        for(int i = 0; i < s.length(); i++){
-            myStack.push(getValue(s[i]));
-        }
-        int res =0;
-        int currentTop = myStack.top();
-        myStack.pop();
-        res = currentTop;
-        if(myStack.empty())return res;
-        while(!myStack.empty()){
+        if(s.length() == 0)
+            return 0;
+        int result = 0;
+        for(int i = 0; i < s.length(); ++i){
+            if(i > 0 && getValue(s[i]) > getValue(s[i - 1]))
+                result += getValue(s[i]) - 2 * getValue(s[i - 1]);
+            else
+                result += getValue(s[i]);
             
-            if(currentTop <= myStack.top()){
-                res += myStack.top();
-            }
-            else{
-                res -= myStack.top();
-            }
-            currentTop = myStack.top();
-            myStack.pop();
         }
-        return res;
+        return result;
     }
+    
 };
