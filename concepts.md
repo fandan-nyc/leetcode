@@ -39,6 +39,9 @@
 2. 自己写几个use case test 一下
 3. 尽量想清楚，精简自己的程序
 4. 写好之后看看能不能精简自己的程序
+5. 
+** to read **
+https://leetcode.com/discuss/96442/my-c-solution-with-0ms
 
 **questions missed** 
 
