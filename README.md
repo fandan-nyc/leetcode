@@ -119,5 +119,5 @@
 |[319](https://leetcode.com/problems/bulb-switcher/)|[bulb switcher](java/src/main/bulbSwitcher/question.md)|[Java - solution 1 slow](java/src/main/bulbSwitcher/solution1.java)<br/>[Java - solution 2 fast](java/src/main/bulbSwitcher/solution2.java)|medium|
 |[326](https://leetcode.com/problems/power-of-three/)|[power of three](java/src/main/powerOfThree/question.md)|[Java - recur](java/src/main/powerOfThree/recur.java)<br>[Java - iter](java/src/main/powerOfThree/iter.java)<br/>[C++](./cpp/326PowerOfThree.cpp)|easy|
 |[328](https://leetcode.com/problems/odd-even-linked-list/)|[odd even linked list](java/src/main/oddEvenLinkedList/question.md)|[Java solution](java/src/main/oddEvenLinkedList/solution.java)<br/> [C++](./cpp/328OddEvenLinkedList.cpp)|easy|
-|[338](https://leetcode.com/problems/counting-bits/)|[count bits](java/src/main/countBits/question.md)|[Java](java/src/main/countBits/solution.md)<br/>[C](c/q338.c)|medium|
+|[338](https://leetcode.com/problems/counting-bits/)|[count bits](java/src/main/countBits/question.md)|[Java](java/src/main/countBits/solution.java)<br/>[C](c/q338.c)|medium|
 |[344](https://leetcode.com/problems/reverse-string/)|[reverse string](java/src/main/reverseString/question.md)|[Java](java/src/main/reverseString/solution.java)<br>[C](c/q344.c)<br>|easy|
