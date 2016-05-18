@@ -124,5 +124,6 @@
 |[337](https://leetcode.com/problems/house-robber-iii/)|[house robber III](java/src/main/houseRobberIII/question.md)|[Java](java/src/main/houseRobberIII/solution.java)<br/>[C](c/q338.c)|medium|
 |[338](https://leetcode.com/problems/counting-bits/)|[count bits](java/src/main/countBits/question.md)|[Java](java/src/main/countBits/solution.java)<br/>[C](c/q338.c)|medium|
 |[342](https://leetcode.com/problems/power-of-four/)|[power of four](java/src/main/powerOfFour/question.md)|[Java](java/src/main/powerOfFour/solution.java)<br/>[C](c/q342.c)|easy|
+|[343](https://leetcode.com/problems/integer-break/)|[integer break](java/src/main/integerBreak/question.md)|[Java](java/src/main/integerBreak/solution.java)<br/>[C](c/q343.c)|medium|
 |[344](https://leetcode.com/problems/reverse-string/)|[reverse string](java/src/main/reverseString/question.md)|[Java](java/src/main/reverseString/solution.java)<br>[C](c/q344.c)<br>|easy|
 |[345](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[reverse vowels of str](java/src/main/reverseVowelsInStr/question.md)|[Java](java/src/main/reverseVowelsInStr/solution.java)<br/>[C](c/q345.c)|easy|
