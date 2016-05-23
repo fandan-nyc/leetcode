@@ -46,6 +46,7 @@
 |[067](https://leetcode.com/problems/add-binary/)|[add binary](java/src/main/addBinary/question.md)|[Java](java/src/main/addBinary/solution.java)|easy|
 |[070](https://leetcode.com/problems/climbing-stairs/)|[climb stairs](java/src/main/climbStair/question.md)|[Java - iter](java/src/main/climbStair/iter.java)<br/>[C++](./cpp/070ClimbingStairs.cpp)|easy|
 |[071](https://leetcode.com/problems/simplify-path/)|[simplify path](java/src/main/71SimplifyPath/question.md)|[java](java/src/main/71SimplifyPath/SimplifyPath.java)|medium|
+|[075](https://leetcode.com/problems/sort-colors/)|[sort colors](java/src/main/sortColors/question.md)|[Java](java/src/main/sortColors/solution.java)<br/>[C - two pointers](c/q75.c)<br/>[C - count&replace](c/q75Dumb.c)|medium|
 |[083](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[remove duplicates from sorted list](java/src/main/removeDuplicatesFromSortedList/question.md)|[Java - Ugly](java/src/main/removeDuplicatesFromSortedList/RemoveDuplicatesFromSortedListUgly.java)<br/>[Java - Pretty](java/src/main/removeDuplicatesFromSortedList/RemoveDuplicatesFromSortedListPretty.java)<br/>[C++](./cpp/083RemoveDuplicatesFromSortedList.cpp)|easy|
 |[086](https://leetcode.com/problems/partition-list/)|[partition list](java/src/main/partitionList/question.md)|[java](java/src/main/partitionList/PartitionList.java)|medium|
 |[088](https://leetcode.com/problems/merge-sorted-array/)|[merge sorted array](java/src/main/mergeSortedArray/question.md)|[Java](java/src/main/mergeSortedArray/solution.java)|easy|
