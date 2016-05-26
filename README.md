@@ -31,6 +31,7 @@
 |[027](https://leetcode.com/problems/remove-element)|[remove element](java/src/main/removeElement/question.md)|[Java ](java/src/main/removeElement/RemoveElement.java)<br/>[Java - right, but not perfect coding](java/src/main/removeElement/badCoding.java)|easy|
 |[028](https://leetcode.com/problems/implement-strstr/)|[implement strStr](java/src/main/strStr/question.md)|[Java - KMP O(n)](java/src/main/strStr/kmp.java)<br>[Java - brute force](java/src/main/strStr/bruteForce.java)|easy|
 |[029]()|[divide integer](java/src/main/dividInteger/question.md)|[Java - iterative](java/src/main/dividInteger/solution.java)<br>[Java - recursive](java/src/main/dividInteger/recursive.java)|medium|
+|[034](https://leetcode.com/problems/search-for-a-range/)|[search for a range](java/src/main/34SearchForRange/question.md)|[Java](java/src/main/34SearchForRange/solution.java)|medium|
 |[035](https://leetcode.com/problems/search-insert-position/)|[Search Insert Position](java/src/main/searchInsertionPosition/question.md)|[C++](./cpp/035SearchInsertPosition.cpp)<br>[Java - O(n)](java/src/main/searchInsertionPosition/solution1.java)<br>[Java - O(logn)](java/src/main/searchInsertionPosition/solution2.java)| easy|
 |[036](https://leetcode.com/problems/valid-sudoku/)|[valid sudoku](java/src/main/validSudoku/question.java)|[Java](java/src/main/validSudoku/solution.java)|easy|
 |[038](https://leetcode.com/problems/count-and-say/)|[count and say](java/src/main/38CountAndSay/question.md)|[Java](java/src/main/38CountAndSay/38CountAndSay.java)|easy|
