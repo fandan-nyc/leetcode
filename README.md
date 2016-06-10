@@ -138,7 +138,7 @@
 |[319](https://leetcode.com/problems/bulb-switcher/)|[bulb switcher](java/src/main/bulbSwitcher/question.md)|[Java - solution 1 slow](java/src/main/bulbSwitcher/solution1.java)<br/>[Java - solution 2 fast](java/src/main/bulbSwitcher/solution2.java)|medium|
 |[326](https://leetcode.com/problems/power-of-three/)|[power of three](java/src/main/powerOfThree/question.md)|[Java - recur](java/src/main/powerOfThree/recur.java)<br>[Java - iter](java/src/main/powerOfThree/iter.java)<br/>[C++](./cpp/326PowerOfThree.cpp)|easy|
 |[328](https://leetcode.com/problems/odd-even-linked-list/)|[odd even linked list](java/src/main/oddEvenLinkedList/question.md)|[Java solution](java/src/main/oddEvenLinkedList/solution.java)<br/> [C++](./cpp/328OddEvenLinkedList.cpp)|easy|
-|[329](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[longest path in matrix](java/src/main/329LongestPathInMatrix/questino.md)|[Java](java/src/main/329LongestPathInMatrix/solution.java)|hard|
+|[329](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[longest path in matrix](java/src/main/329LongestPathInMatrix/question.md)|[Java](java/src/main/329LongestPathInMatrix/solution.java)|hard|
 |[337](https://leetcode.com/problems/house-robber-iii/)|[house robber III](java/src/main/houseRobberIII/question.md)|[Java](java/src/main/houseRobberIII/solution.java)<br/>[C](c/q338.c)|medium|
 |[338](https://leetcode.com/problems/counting-bits/)|[count bits](java/src/main/countBits/question.md)|[Java](java/src/main/countBits/solution.java)<br/>[C](c/q338.c)|medium|
 |[342](https://leetcode.com/problems/power-of-four/)|[power of four](java/src/main/powerOfFour/question.md)|[Java](java/src/main/powerOfFour/solution.java)<br/>[C](c/q342.c)|easy|
