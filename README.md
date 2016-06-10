@@ -132,7 +132,7 @@
 |[290](https://leetcode.com/problems/word-pattern/)|[word pattern](java/src/main/wordPattern/question.md)|[Java](java/src/main/wordPattern/solution.java)|easy|
 |[292](https://leetcode.com/problems/nim-game/) |[Nim Game](./java/src/main/nimGame/Question.md)| [Java](./java/src/main/nimGame/nimGame.java)<br/>[C++](./cpp/292NimGame.cpp)<br>[C](c/c292.c)| easy |
 |[299](https://leetcode.com/problems/bulls-and-cows/)|[bulls and cows](java/src/main/bullAndCows/question.md)|[Java](java/src/main/bullAndCows/solution.java)|easy|
-|[300](https://leetcode.com/problems/longest-increasing-subsequence/)|[Longest Increasing Subsequence](java/src/main/300LongestIncreasingSubsequence/question.md)|[Java](java/src/main/300LongestIncreasingSubsequence/solution.java)|meidum|
+|[300](https://leetcode.com/problems/longest-increasing-subsequence/)|[Longest Increasing Subsequence](java/src/main/300LongestIncreasingSubsequence/question.md)|[Java](java/src/main/300LongestIncreasingSubsequence/solution.java)<br/>[Java - brute force](java/src/main/300LongestIncreasingSubsequence/bruteForce.java)|meidum|
 |[303](https://leetcode.com/problems/range-sum-query-immutable/)|[range sum query](java/src/main/rangeSumQuery/question.md)|[Java](java/src/main/rangeSumQuery/solution.java)|easy|
 |[318](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[max product of the word length](java/src/main/maxProductOfWordLength/question.md)|[Java](java/src/main/maxProductOfWordLength/solution.java)|medium|
 |[319](https://leetcode.com/problems/bulb-switcher/)|[bulb switcher](java/src/main/bulbSwitcher/question.md)|[Java - solution 1 slow](java/src/main/bulbSwitcher/solution1.java)<br/>[Java - solution 2 fast](java/src/main/bulbSwitcher/solution2.java)|medium|
