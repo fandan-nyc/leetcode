@@ -40,7 +40,7 @@
 |[048](https://leetcode.com/problems/rotate-image/)|[rotate image](java/src/main/48RotateImage/question.md)|[Java - In place](java/src/main/48RotateImage/solution.java)|medium|
 |[050](https://leetcode.com/problems/powx-n/)|[power(x,n)](java/src/main/50PowXn/question.md)|[Java](java/src/main/50PowXn/solution.java)|medium|
 |[053](https://leetcode.com/problems/maximum-subarray/)|[max subarray](java/src/main/53MaxSubarray/question.md)|[Java - space O(1)](java/src/main/53MaxSubarray/MaxSubarrayDPSpace1.java)<br/>[Java - space O(n)](java/src/main/53MaxSubarray/MaxSubarrayDPSpaceN.java)<br/>[C++ D&C](./cpp/053MaxSubarray.cpp)|medium|
-|[054](https://leetcode.com/problems/spiral-matrix/)|[Spiral Matrix](java/src/main/54SpiralMatrix/question.md)|[Java](solution.java)|medium|
+|[054](https://leetcode.com/problems/spiral-matrix/)|[Spiral Matrix](java/src/main/54SpiralMatrix/question.md)|[Java]( java/src/main/54SpiralMatrix/solution.java)|medium|
 |[055](https://leetcode.com/problems/jump-game/)|[jump game](java/src/main/jumpGame/question.md)|[Java](java/src/main/jumpGame/JumpGame1.java)| medium |
 |[058](https://leetcode.com/problems/length-of-last-word/)|[length of last word](java/src/main/lenOfLastWord/question.md)| [Java](java/src/main/lenOfLastWord/LenOfLastWord.java)<br>[Java - From back](java/src/main/lenOfLastWord/fromBack.java)|easy|
 |[059](https://leetcode.com/problems/spiral-matrix-ii/)|[Spiral Matrix II](java/src/main/59SpiralMatrixII/question.md)|[Java](java/src/main/59SpiralMatrixII/solution.java)|medium|
