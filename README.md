@@ -91,6 +91,7 @@
 |[153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[find min from rotated sorted array](java/src/main/findMinFromRotatedSortedArray/question.md)|[Java](java/src/main/findMinFromRotatedSortedArray/solution.java)<br>[Java - better](java/src/main/findMinFromRotatedSortedArray/solution2.java)|medium|
 |[155](https://leetcode.com/problems/min-stack/)|[min stack](java/src/main/minStack/question.md)|[Java](java/src/main/minStack/solution.java)|easy|
 |[160](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[intersection of two linkedlists](java/src/main/intersectionOfTwoLinkedLists/question.md)|[Java](java/src/main/intersectionOfTwoLinkedLists/solution.java)|easy|
+|[162]()|[find peak ele](java/src/main/162FindPeakEle/question.md)|[Java -O(n)](java/src/main/162FindPeakEle/solution1.java)<br/>[Java - O(log(n))](java/src/main/162FindPeakEle/solution2.java)|medium|
 |[164](https://leetcode.com/problems/maximum-gap/)|[Maximum gap](java/src/main/164MaximumGap/question.md)|[Java - nlog(n)](java/src/main/164MaximumGap/bruteForce.java)<br/>[Java -O(n) bucket sort](java/src/main/164MaximumGap/bucketSort.java)|hard|
 |[165](https://leetcode.com/problems/compare-version-numbers/)|[compare version](java/src/main/compareVersion/question.md)|[Java](java/src/main/compareVersion/solution.java)|easy|
 |[168](https://leetcode.com/problems/excel-sheet-column-title/)|[excel sheet column title](java/src/main/168ExcelSheetColumnTitle/question.md)|[Java](java/src/main/168ExcelSheetColumnTitle/168ExcelSheetColumnTitle.java)|easy|
