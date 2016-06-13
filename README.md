@@ -157,3 +157,4 @@
 |[343](https://leetcode.com/problems/integer-break/)|[integer break](java/src/main/integerBreak/question.md)|[Java](java/src/main/integerBreak/solution.java)<br/>[C](c/q343.c)|medium|
 |[344](https://leetcode.com/problems/reverse-string/)|[reverse string](java/src/main/reverseString/question.md)|[Java](java/src/main/reverseString/solution.java)<br>[C](c/q344.c)<br>|easy|
 |[345](https://leetcode.com/problems/reverse-vowels-of-a-string/)|[reverse vowels of str](java/src/main/reverseVowelsInStr/question.md)|[Java](java/src/main/reverseVowelsInStr/solution.java)<br/>[C](c/q345.c)|easy|
+|[357](https://leetcode.com/problems/count-numbers-with-unique-digits/)|[count numbers with unique digits](java/src/main/357CountNumWithUniqueDigits/question.md)|[Java - DP](java/src/main/357CountNumWithUniqueDigits/solution.java)|medium|
