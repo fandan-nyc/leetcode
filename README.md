@@ -145,7 +145,7 @@
 |[303](https://leetcode.com/problems/range-sum-query-immutable/)|[range sum query](java/src/main/rangeSumQuery/question.md)|[Java](java/src/main/rangeSumQuery/solution.java)|easy|
 |[318](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[max product of the word length](java/src/main/maxProductOfWordLength/question.md)|[Java](java/src/main/maxProductOfWordLength/solution.java)|medium|
 |[319](https://leetcode.com/problems/bulb-switcher/)|[bulb switcher](java/src/main/bulbSwitcher/question.md)|[Java - solution 1 slow](java/src/main/bulbSwitcher/solution1.java)<br/>[Java - solution 2 fast](java/src/main/bulbSwitcher/solution2.java)|medium|
-|[322](https://leetcode.com/problems/coin-change/)|[coin change](java/src/main/322CoinChange/question.md)|[Java - DP]( java/src/main/322CoinChange/solution.java)|medium|
+|[322](https://leetcode.com/problems/coin-change/)|[coin change](java/src/main/322CoinChange/question.md)|[Java - DP](java/src/main/322CoinChange/solution.java)|medium|
 |[326](https://leetcode.com/problems/power-of-three/)|[power of three](java/src/main/powerOfThree/question.md)|[Java - recur](java/src/main/powerOfThree/recur.java)<br>[Java - iter](java/src/main/powerOfThree/iter.java)<br/>[C++](./cpp/326PowerOfThree.cpp)|easy|
 |[328](https://leetcode.com/problems/odd-even-linked-list/)|[odd even linked list](java/src/main/oddEvenLinkedList/question.md)|[Java solution](java/src/main/oddEvenLinkedList/solution.java)<br/> [C++](./cpp/328OddEvenLinkedList.cpp)|easy|
 |[329](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)|[longest path in matrix](java/src/main/329LongestPathInMatrix/question.md)|[Java](java/src/main/329LongestPathInMatrix/solution.java)|hard|
