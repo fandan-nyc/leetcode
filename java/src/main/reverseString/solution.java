@@ -23,7 +23,6 @@ public class Solution {
        }
        return new String(arr);
     }
-}
 
     public String reverseStringIII(String s) {
         StringBuilder sb = new StringBuilder(s);
