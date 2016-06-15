@@ -10,4 +10,24 @@ public class Solution {
         }
         return sb.toString();
     }
+    
+     public String reverseStringII(String s) {
+       if(s == null || s.length() <=1 ){
+           return s;
+       }
+       char[] arr = s.toCharArray();
+       for(int i = 0; i < arr.length/2; i++){
+           char tmp = arr[arr.length -i-1];
+           arr[arr.length -i-1] = arr[i];
+           arr[i]=tmp;
+       }
+       return new String(arr);
+    }
+}
+
+    public String reverseStringIII(String s) {
+        StringBuilder sb = new StringBuilder(s);
+        return sb.reverse().toString();
+    }
+    
 }
