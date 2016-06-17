@@ -119,6 +119,7 @@
 |[215](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[kth largest element in an array](java/src/main/215KthLargestEleInArray/question.md)|[Java](java/src/main/215KthLargestEleInArray/solution.java)|medium|
 |[217](https://leetcode.com/problems/contains-duplicate/)|[Contains Duplicate](java/src/main/containsDuplicate/question.md)|[C++](./cpp/217ContainsDuplicate.cpp)<br>[Java - hash set](java/src/main/containsDuplicate/hashSet.java)<br>[Java - insertion sort](java/src/main/containsDuplicate/insertionSort.java) | easy |
 |[219](https://leetcode.com/problems/contains-duplicate-ii/)|[contains duplicate II](java/src/main/containsDuplicateII/question.md)|[Java](java/src/main/containsDuplicateII/solution.java)|easy|
+|[221](https://leetcode.com/problems/maximal-square/)|[maximum square](java/src/main/221MaximalSquare/question.md)|[Java](java/src/main/221MaximalSquare/solution.java)|medium|
 |[222](https://leetcode.com/problems/count-complete-tree-nodes/)|[count complete tree nodes](java/src/main/222CountCompleteTreeNodes/question.md)|[Java - recursive](java/src/main/222CountCompleteTreeNodes/solution.java)|medium|
 |[223](https://leetcode.com/problems/rectangle-area/)|[rectangle area](java/src/main/rectangleArea/question.md)|[Java](java/src/main/rectangleArea/solution.java)|easy|
 |[225](https://leetcode.com/problems/implement-stack-using-queues/)|[implement stack using queue](java/src/main/implementStackUsingQueue/question.md)|[Java](java/src/main/implementStackUsingQueue/solution.java)|easy|
