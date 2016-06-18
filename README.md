@@ -53,6 +53,7 @@
 |[067](https://leetcode.com/problems/add-binary/)|[add binary](java/src/main/addBinary/question.md)|[Java](java/src/main/addBinary/solution.java)|easy|
 |[070](https://leetcode.com/problems/climbing-stairs/)|[climb stairs](java/src/main/climbStair/question.md)|[Java - iter](java/src/main/climbStair/iter.java)<br/>[C++](./cpp/070ClimbingStairs.cpp)|easy|
 |[071](https://leetcode.com/problems/simplify-path/)|[simplify path](java/src/main/71SimplifyPath/question.md)|[java](java/src/main/71SimplifyPath/SimplifyPath.java)|medium|
+|[072](https://leetcode.com/problems/edit-distance/)|[edit distance](java/src/main/72EditDistance/question.md)|[Java - O(m*n)](java/src/main/72EditDistance/solution.java)|hard|
 |[073](https://leetcode.com/problems/set-matrix-zeroes/)|[set matrix zeros](java/src/main/73SetMatrixZero/question.md)|[Java](java/src/main/73SetMatrixZero/solution.java)|medium|
 |[074](https://leetcode.com/problems/search-a-2d-matrix/)|[search a 2D ma"trix](java/src/main/74.2dMatrix/question.md)|[Java](java/src/main/74.2dMatrix/solution.java)|medium|
 |[075](https://leetcode.com/problems/sort-colors/)|[sort colors](java/src/main/sortColors/question.md)|[Java](java/src/main/sortColors/solution.java)<br/>[C - two pointers](c/q75.c)<br/>[C - count&replace](c/q75Dumb.c)|medium|
