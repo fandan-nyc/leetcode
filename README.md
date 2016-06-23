@@ -143,6 +143,7 @@
 |[221](https://leetcode.com/problems/maximal-square/)|[maximum square](java/src/main/221MaximalSquare/question.md)|[Java](java/src/main/221MaximalSquare/solution.java)|medium|
 |[222](https://leetcode.com/problems/count-complete-tree-nodes/)|[count complete tree nodes](java/src/main/222CountCompleteTreeNodes/question.md)|[Java - recursive](java/src/main/222CountCompleteTreeNodes/solution.java)|medium|
 |[223](https://leetcode.com/problems/rectangle-area/)|[rectangle area](java/src/main/rectangleArea/question.md)|[Java](java/src/main/rectangleArea/solution.java)|easy|
+|[224](https://leetcode.com/problems/basic-calculator/)|[basic calculator](java/src/main/224BasicCalculator/question.md)|[Java](java/src/main/224BasicCalculator/solution.java)|hard|
 |[225](https://leetcode.com/problems/implement-stack-using-queues/)|[implement stack using queue](java/src/main/implementStackUsingQueue/question.md)|[Java](java/src/main/implementStackUsingQueue/solution.java)|easy|
 |[226](https://leetcode.com/problems/invert-binary-tree/)|[Invert Binary Tree](java/src/main/revertBinaryTree/question.md)|[C++](./cpp/226InvertBinaryTree.cpp)<br>[Java - recursive](java/src/main/revertBinaryTree/recursive.java)<br>[Java - Iterative](java/src/main/revertBinaryTree/iterative.java)<br/>[C - recursive](./c/q226.c)| easy |
 |[228](https://leetcode.com/problems/summary-ranges/)|[summary ranges](java/src/main/summaryRanges/question.md)|[Java](java/src/main/summaryRanges/solution.java)|easy|
