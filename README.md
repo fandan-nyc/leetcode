@@ -187,6 +187,7 @@
 |[300](https://leetcode.com/problems/longest-increasing-subsequence/)|[Longest Increasing Subsequence](java/src/main/300LongestIncreasingSubsequence/question.md)|[Java](java/src/main/300LongestIncreasingSubsequence/solution.java)<br/>[Java - brute force](java/src/main/300LongestIncreasingSubsequence/bruteForce.java)|meidum|
 |[303](https://leetcode.com/problems/range-sum-query-immutable/)|[range sum query](java/src/main/rangeSumQuery/question.md)|[Java](java/src/main/rangeSumQuery/solution.java)|easy|
 |[304](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Range Sum Query 2D - Immutable](java/src/main/304RangeSumQuery2DImmutable/question.md)|[Java - DP](java/src/main/304RangeSumQuery2DImmutable/solution.java)|medium|
+|[313](https://leetcode.com/problems/super-ugly-number/)|[super ugly number](java/src/main/313SuperUglyNumber/question.md)|[Java](java/src/main/313SuperUglyNumber/solution.java)|medium|
 |[318](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[max product of the word length](java/src/main/maxProductOfWordLength/question.md)|[Java](java/src/main/maxProductOfWordLength/solution.java)|medium|
 |[319](https://leetcode.com/problems/bulb-switcher/)|[bulb switcher](java/src/main/bulbSwitcher/question.md)|[Java - solution 1 slow](java/src/main/bulbSwitcher/solution1.java)<br/>[Java - solution 2 fast](java/src/main/bulbSwitcher/solution2.java)|medium|
 |[322](https://leetcode.com/problems/coin-change/)|[coin change](java/src/main/322CoinChange/question.md)|[Java - DP](java/src/main/322CoinChange/solution.java)|medium|
