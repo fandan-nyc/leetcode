@@ -67,6 +67,7 @@
 |[078](https://leetcode.com/problems/subsets/)|[subset](java/src/main/78subSets/question.md)|[Java](java/src/main/78subSets/solution.java)|medium|
 |[079](https://leetcode.com/problems/word-search/)|[word search](java/src/main/79WordSearch/question.md)|[Java](java/src/main/79WordSearch/solution.java)|medium|
 |[080](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[remove duplicate from sorted array II](java/src/main/80RemoveDupFromSortedArrayII/question.md)|[Java](java/src/main/80RemoveDupFromSortedArrayII/solution.java)|medium|
+|[081](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)|[search in rotated array II](java/src/main/81searchInRotatedArrayII/question.md)|[Java](java/src/main/81searchInRotatedArrayII/solution.java)|medium|
 |[083](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[remove duplicates from sorted list](java/src/main/removeDuplicatesFromSortedList/question.md)|[Java - Ugly](java/src/main/removeDuplicatesFromSortedList/RemoveDuplicatesFromSortedListUgly.java)<br/>[Java - Pretty](java/src/main/removeDuplicatesFromSortedList/RemoveDuplicatesFromSortedListPretty.java)<br/>[C++](./cpp/083RemoveDuplicatesFromSortedList.cpp)|easy|
 |[086](https://leetcode.com/problems/partition-list/)|[partition list](java/src/main/partitionList/question.md)|[java](java/src/main/partitionList/PartitionList.java)|medium|
 |[088](https://leetcode.com/problems/merge-sorted-array/)|[merge sorted array](java/src/main/mergeSortedArray/question.md)|[Java](java/src/main/mergeSortedArray/solution.java)|easy|
