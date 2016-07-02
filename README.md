@@ -65,6 +65,7 @@
 |[073](https://leetcode.com/problems/set-matrix-zeroes/)|[set matrix zeros](java/src/main/73SetMatrixZero/question.md)|[Java](java/src/main/73SetMatrixZero/solution.java)|medium|
 |[074](https://leetcode.com/problems/search-a-2d-matrix/)|[search a 2D ma"trix](java/src/main/74.2dMatrix/question.md)|[Java](java/src/main/74.2dMatrix/solution.java)|medium|
 |[075](https://leetcode.com/problems/sort-colors/)|[sort colors](java/src/main/sortColors/question.md)|[Java](java/src/main/sortColors/solution.java)<br/>[C - two pointers](c/q75.c)<br/>[C - count&replace](c/q75Dumb.c)|medium|
+|[076](https://leetcode.com/problems/minimum-window-substring/)|[minimum window substring](java/src/main/76MinimumWindowSubstring/question.md)|[Java - two pointers, O(n)](java/src/main/76MinimumWindowSubstring/solution.java)|hard|
 |[077](https://leetcode.com/problems/combinations/)|[combinations](java/src/main/77Combinations/question.md)|[Java - backtracking](java/src/main/77Combinations/solution.java)|medium|
 |[078](https://leetcode.com/problems/subsets/)|[subset](java/src/main/78subSets/question.md)|[Java](java/src/main/78subSets/solution.java)|medium|
 |[079](https://leetcode.com/problems/word-search/)|[word search](java/src/main/79WordSearch/question.md)|[Java](java/src/main/79WordSearch/solution.java)|medium|
