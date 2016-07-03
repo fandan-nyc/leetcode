@@ -48,10 +48,11 @@
 |[044](https://leetcode.com/problems/wildcard-matching/)|[Wildcard Matching](java/src/main/44WildcardMatching/question.md)|[Java](java/src/main/44WildcardMatching/solution.java)|hard|
 |[045](https://leetcode.com/problems/jump-game-ii/)|[Jump Game II](java/src/main/45JumpGameII/question.md)|[Java - Greedy O(n)](java/src/main/45JumpGameII/solution1.java)<br/>[Java - DP O(n^2)](java/src/main/45JumpGameII/solution2.java)|hard|
 |[046](https://leetcode.com/problems/permutations/)|[Permuation](java/src/main/46Permutation/question.md)|[Java - backtracking](java/src/main/46Permutation/solution.java)|medium|
-|[048](https://leetcode.com/problems/rotate-image/)|[rotate image](java/src/main/48RotateImage/question.md)|[Java - In place](java/src/main/48RotateImage/solution.java)|medium|
 |[047](https://leetcode.com/problems/permutations-ii/)|[Permutation II](java/src/main/47permutationII/question.md)|[Java](java/src/main/47permutationII/solution.java)|medium|
+|[048](https://leetcode.com/problems/rotate-image/)|[rotate image](java/src/main/48RotateImage/question.md)|[Java - In place](java/src/main/48RotateImage/solution.java)|medium|
 |[049](https://leetcode.com/problems/anagrams/)|[group anagrams](java/src/main/49GroupAnagrams/question.md)|[Java](java/src/main/49GroupAnagrams/solution.java)|medium|
 |[050](https://leetcode.com/problems/powx-n/)|[power(x,n)](java/src/main/50PowXn/question.md)|[Java](java/src/main/50PowXn/solution.java)|medium|
+|[051](https://leetcode.com/problems/n-queens/)|[N-Queens](java/src/main/51NQueens/question.md)|[Java - Backtracking](java/src/main/51NQueens/solution.java)|hard|
 |[053](https://leetcode.com/problems/maximum-subarray/)|[max subarray](java/src/main/53MaxSubarray/question.md)|[Java - space O(1)](java/src/main/53MaxSubarray/MaxSubarrayDPSpace1.java)<br/>[Java - space O(n)](java/src/main/53MaxSubarray/MaxSubarrayDPSpaceN.java)<br/>[C++ D&C](./cpp/053MaxSubarray.cpp)|medium|
 |[054](https://leetcode.com/problems/spiral-matrix/)|[Spiral Matrix](java/src/main/54SpiralMatrix/question.md)|[Java]( java/src/main/54SpiralMatrix/solution.java)|medium|
 |[055](https://leetcode.com/problems/jump-game/)|[jump game](java/src/main/jumpGame/question.md)|[Java](java/src/main/jumpGame/JumpGame1.java)| medium |
