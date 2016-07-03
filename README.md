@@ -53,6 +53,7 @@
 |[049](https://leetcode.com/problems/anagrams/)|[group anagrams](java/src/main/49GroupAnagrams/question.md)|[Java](java/src/main/49GroupAnagrams/solution.java)|medium|
 |[050](https://leetcode.com/problems/powx-n/)|[power(x,n)](java/src/main/50PowXn/question.md)|[Java](java/src/main/50PowXn/solution.java)|medium|
 |[051](https://leetcode.com/problems/n-queens/)|[N-Queens](java/src/main/51NQueens/question.md)|[Java - Backtracking](java/src/main/51NQueens/solution.java)|hard|
+|[052](https://leetcode.com/problems/n-queens-ii/)|[N-queens II](java/src/main/52NQueens/question.md)|[Java](java/src/main/52NQueens/solution.java)|hard|
 |[053](https://leetcode.com/problems/maximum-subarray/)|[max subarray](java/src/main/53MaxSubarray/question.md)|[Java - space O(1)](java/src/main/53MaxSubarray/MaxSubarrayDPSpace1.java)<br/>[Java - space O(n)](java/src/main/53MaxSubarray/MaxSubarrayDPSpaceN.java)<br/>[C++ D&C](./cpp/053MaxSubarray.cpp)|medium|
 |[054](https://leetcode.com/problems/spiral-matrix/)|[Spiral Matrix](java/src/main/54SpiralMatrix/question.md)|[Java]( java/src/main/54SpiralMatrix/solution.java)|medium|
 |[055](https://leetcode.com/problems/jump-game/)|[jump game](java/src/main/jumpGame/question.md)|[Java](java/src/main/jumpGame/JumpGame1.java)| medium |
