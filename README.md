@@ -44,6 +44,7 @@
 |[040](https://leetcode.com/problems/combination-sum-ii/)|[combination sum II](java/src/main/40CombinationSumII/question.md)|[Java](java/src/main/40CombinationSumII/solution.java)|medium|
 |[041](https://leetcode.com/problems/first-missing-positive/)|[find missing positive](java/src/main/41findMissingPositive/question.md)|[Java - O(n)](java/src/main/41findMissingPositive/solution.java)|hard|
 |[042](https://leetcode.com/problems/trapping-rain-water/)|[trapping the rain water](java/src/main/trappingRainWater/question.md)|[Java - two array Space O(2n) Time O(3N)](java/src/main/trappingRainWater/TrappingRainWaterSpace2NTime2N.java)<br/>[Java - stack, space O(n) time O(2n)](java/src/main/trappingRainWater/TrappingRainWaterSpaceNTime2NStack.java)<br/>[Java - space O(1) time O(n)](java/src/main/trappingRainWater/TrappingRainWaterSpace1TimeN.java)|hard|
+|[043](https://leetcode.com/problems/multiply-strings/)|[multiply strings](java/src/main/43MultiplyStrings/question.md)|[Java](java/src/main/43MultiplyStrings/solution.java)|medium|
 |[046](https://leetcode.com/problems/permutations/)|[Permuation](java/src/main/46Permutation/question.md)|[Java - backtracking](java/src/main/46Permutation/solution.java)|medium|
 |[048](https://leetcode.com/problems/rotate-image/)|[rotate image](java/src/main/48RotateImage/question.md)|[Java - In place](java/src/main/48RotateImage/solution.java)|medium|
 |[047](https://leetcode.com/problems/permutations-ii/)|[Permutation II](java/src/main/47permutationII/question.md)|[Java](java/src/main/47permutationII/solution.java)|medium|
