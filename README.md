@@ -88,6 +88,7 @@
 |[084](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[largest rectangle in histogram](java/src/main/84LargestRectangleInHist/question.md)|[Java - O(n)](java/src/main/84LargestRectangleInHist/solution.java)<br/>[Java - Stack](java/src/main/84LargestRectangleInHist/solution2.java)|hard|
 |[085](https://leetcode.com/problems/maximal-rectangle/)|[maximal rectangle](java/src/main/85MaximalRectangle/question.md)|[Java](java/src/main/85MaximalRectangle/solution.java)|hard|
 |[086](https://leetcode.com/problems/partition-list/)|[partition list](java/src/main/partitionList/question.md)|[java](java/src/main/partitionList/PartitionList.java)|medium|
+|[087](https://leetcode.com/problems/scramble-string/)|[scramble string](java/src/main/87ScrambleStr/question.md)|[Java -recursive](java/src/main/87ScrambleStr/solution.java)|hard|
 |[088](https://leetcode.com/problems/merge-sorted-array/)|[merge sorted array](java/src/main/mergeSortedArray/question.md)|[Java](java/src/main/mergeSortedArray/solution.java)|easy|
 |[089](https://leetcode.com/problems/gray-code/)|[gray code](java/src/main/greyCode/question.md)|[Java](java/src/main/greyCode/solution.java)<br/>[C](c/q89.c)|medium|
 |[090](https://leetcode.com/problems/subsets-ii/)|[subsets II](java/src/main/90SubSetsII/question.md)|[Java](java/src/main/90SubSetsII/solution.java)|medium|
