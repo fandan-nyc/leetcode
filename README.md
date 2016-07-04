@@ -61,6 +61,7 @@
 |[057](https://leetcode.com/problems/insert-interval/)|[insert interval](java/src/main/57InsertInterval/question.md)|[Java](java/src/main/57InsertInterval/solution.java)|hard|
 |[058](https://leetcode.com/problems/length-of-last-word/)|[length of last word](java/src/main/lenOfLastWord/question.md)| [Java](java/src/main/lenOfLastWord/LenOfLastWord.java)<br>[Java - From back](java/src/main/lenOfLastWord/fromBack.java)|easy|
 |[059](https://leetcode.com/problems/spiral-matrix-ii/)|[Spiral Matrix II](java/src/main/59SpiralMatrixII/question.md)|[Java](java/src/main/59SpiralMatrixII/solution.java)|medium|
+|[060](https://leetcode.com/problems/permutation-sequence/)|[next permutation](java/src/main/60NextPermutation/question.md)|[Java](java/src/main/60NextPermutation/solution.java)|medium|
 |[061](https://leetcode.com/problems/rotate-list/)|[rotate list](java/src/main/rotateList/question.md)|[Java](java/src/main/rotateList/RotateList.java)| medium |
 |[062](https://leetcode.com/problems/unique-paths/)|[unique path](./java/src/main/uniquePath/question.md)| [Java - space O(m*n)](./java/src/main/uniquePath/UniquePathMN.java)<br/>  [Java - space O(n)](./java/src/main/uniquePath/UniquePathN.java) <br/>[Java - space O(1) math](./java/src/main/uniquePath/UniquePathMath.java)<br/> [C++](./cpp/062UniquePaths.cpp)|medium|
 |[063](https://leetcode.com/problems/unique-paths-ii/)|[unique path II](java/src/main/uniquePathII/question.md)|[Java](java/src/main/uniquePathII/UniquePathII.java)|medium|
