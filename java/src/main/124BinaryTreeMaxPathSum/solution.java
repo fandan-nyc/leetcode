@@ -8,7 +8,7 @@
  * }
  */
 public class Solution {
-    private int max = 0;
+    private int max = Integer.MIN_VALUE;
     public int maxPathSum(TreeNode root) {
         maxPathSumWithCurrentNode(root);
         return max;
