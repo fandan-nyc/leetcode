@@ -1,22 +1,21 @@
 public class Solution {
     public int lengthOfLongestSubstring(String s) {
-        int max = 0;
-        if(s == null || s.length() == 0)
-            return max;
-        Map<Character,Integer> map = new HashMap<Character, Integer>();
-        int tmp =0;
-        int start = 0;
-        for(int i = 0; i < s.length(); i ++){
-            char x = s.charAt(i);
-            if(map.containsKey(x) && map.get(x) >= start){
-                    max = Math.max(max, tmp);
-                    start = map.get(x) +1;
-                    tmp = i - start;
-                }
-            tmp++;
-            map.put(x,i);
+        if(s == null || s.length() == 0){
+            return  0;
         }
-        return Math.max(max, tmp);
+        int minPos = 0;
+        int maxLen = 0;
+        Map<Character, Integer> map = new HashMap<Character, Integer>();
+        for(int i = 0; i < s.length(); i++){
+            char curr = s.charAt(i);
+            // the char showed up before, and it showed up after the position where we start to count unique string
+            // we update the start to be the next one. 
+            if(map.containsKey(curr) && map.get(curr) >= minPos){
+                minPos = map.get(curr)+1;
+            }
+            map.put(curr, i);
+            maxLen = Math.max(maxLen, i-minPos+1);
+        }
+        return maxLen;
     }
 }
-
