@@ -2,7 +2,7 @@
  
 | # | question | Answer |level|
 |---| ------------ | -------- | ---- |
-|[001](https://leetcode.com/problems/two-sum/)|[two sum](java/src/main/twoSum/question.md)|[Java space O(n) time O(n) - without hashMap](java/src/main/twoSum/twoSumArray.java)<br/>[Java space O(n) time O(n) - with HashMap](java/src/main/twoSum/twoSumHashMap.java)|medium|
+|[001](https://leetcode.com/problems/two-sum/)|[two sum](java/src/main/twoSum/question.md)|[Java - without hashMap](java/src/main/twoSum/twoSumArray.java)<br/>[Java space O(n) time O(n) - with HashMap](java/src/main/twoSum/twoSumHashMap.java)|medium|
 |[002](https://leetcode.com/problems/add-two-numbers/)|[add two numbers](java/src/main/addTwoNumbers/question.md)|[Java](java/src/main/addTwoNumbers/solution.java)| medium|
 |[003](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Longest Substring Without Repeating Characters](java/src/main/3LongestSubstringWithoutRepeatingChar/question.md)|[Java - sliding window](java/src/main/3LongestSubstringWithoutRepeatingChar/solution.java)<br/>[Java - another](java/src/main/3LongestSubstringWithoutRepeatingChar/solution2.java)|hard|
 |[004](https://leetcode.com/problems/median-of-two-sorted-arrays/)|[median of two sorted arrays](java/src/main/medianOfTwoSortedArrays/question.md)|[Java O(log(m+n))](java/src/main/medianOfTwoSortedArrays/solution.java)|hard|
