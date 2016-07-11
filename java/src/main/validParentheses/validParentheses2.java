@@ -1,32 +1,19 @@
-public class Solution 
-{
-	public boolean isValid(String s)
-	{
-		if(s == null || s.length() == 0)
-		{
-			return true;
-		}
-		Stack<Character> result = new Stack<Character>();
-		for(Character i: s.toCharArray())
-		{
-			if(i == '(' || i == '{' || i == '[')
-			{
-				result.push(i);
-			}
-			// assume that, the string contains valid parenthesis char only
-			else 
-			{
-			    if(result.isEmpty())
-			    {
-			        return false;
-			    }
-				Character p = result.pop();
-			    if( i -  p != 1 && i - p != 2)
-			    {
-			        return false;
-			    }
-			}
-		}
-		return result.size() == 0 ;
-	}
+public class Solution {
+    public boolean isValid(String s) {
+        if(s == null || s.length() == 0){
+            return true;
+        }
+        Stack<Character> stack = new Stack<Character>();
+        for(char i: s.toCharArray()){
+            if(i == '(' || i == '[' || i == '{'){
+                stack.push(i);
+            }else{
+                if(stack.isEmpty() || (stack.peek() +1 != i && stack.peek()+2 != i)){
+                    return false;
+                }
+                stack.pop();
+            }
+        }
+        return stack.isEmpty();
+    }
 }
