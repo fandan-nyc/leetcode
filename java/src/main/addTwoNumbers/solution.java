@@ -8,12 +8,6 @@
  */
 public class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        if(l1 == null){
-            return l2;
-        }
-        if(l2 == null){
-            return l1;
-        }
         int carryOver = 0; 
         ListNode head = new ListNode(0);
         ListNode dummy = head;
