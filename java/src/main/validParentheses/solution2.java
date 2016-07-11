@@ -21,7 +21,6 @@ public class Solution {
 			}
 		}
 		return head == 0;
-
 	}
 }
 // much faster, because we do not need to use stack
