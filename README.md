@@ -170,6 +170,7 @@
 |[174](https://leetcode.com/problems/dungeon-game/)|[dungeon game](java/src/main/174dungeonGame/question.md)|[Java - DP, memorization](java/src/main/174dungeonGame/solution.java)|hard|
 |[179](https://leetcode.com/problems/largest-number/)|[largest number](java/src/main/179LargestNumber/question.md)|[Java](java/src/main/179LargestNumber/solution.java)|medium|
 |[187](https://leetcode.com/problems/repeated-dna-sequences/)|[repeated DNA sequence](java/src/main/187repeatedDNASequence/question.md)|[Java](java/src/main/187repeatedDNASequence/solution1.java)<br/>[Java - Rolling Hash](java/src/main/187repeatedDNASequence/solution2.java)|medium|
+|[188](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)|[best time to buy and sell stock IV](java/src/main/188BestTimeToBuyAndStockIV/question.md)|[Java](java/src/main/188BestTimeToBuyAndStockIV/solution.java)|hard|
 |[189](https://leetcode.com/problems/rotate-array/)|[rotate array](java/src/main/rotateArray/question.md)|[Java - reverse O(3n)](java/src/main/rotateArray/reverse.java)<br>[Java - O(n)](java/src/main/rotateArray/betterSolution.java)|easy|
 |[190](https://leetcode.com/problems/reverse-bits/)|[reverse bits](java/src/main/reverseBits/question.md)|[Java](java/src/main/reverseBits/solution.java) <br> [Java - better solution](java/src/main/reverseBits/betterSolution.java)|easy|
 |[191](https://leetcode.com/problems/number-of-1-bits/)|[Number of 1 Bits](java/src/main/numberOfBits/question.md)|[C++](./cpp/191NumberOfOneBits.cpp)<br>[Java](java/src/main/numberOfBits/solution.java)| easy |
