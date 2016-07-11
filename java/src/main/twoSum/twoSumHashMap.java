@@ -12,3 +12,6 @@ public class Solution {
         return null;
     }
 }
+// time complexity: O(n)
+// space complexity: O(n) 
+// brute force, space O(n^2), space O(1)
