@@ -150,6 +150,7 @@
 |[146](https://leetcode.com/problems/lru-cache/)|[LRU cache](java/src/main/146LRUCache/question.md)|[Java](java/src/main/146LRUCache/solution.java)|hard|
 |[147](https://leetcode.com/problems/insertion-sort-list/)|[insertion sort list](java/src/main/147InsertionSortList/question.md)|[Java - O(n^2)](java/src/main/147InsertionSortList/solution.java)|medium|
 |[148](https://leetcode.com/problems/sort-list/)|[sort list](java/src/main/148SortList/question.md)|[Java](java/src/main/148SortList/solution.java)|medium|
+|[149](https://leetcode.com/problems/max-points-on-a-line/)|[Max Points On a Line](java/src/main/149MaxPointsOnALine/question.md)|[Java](java/src/main/149MaxPointsOnALine/solution.java)|hard|
 |[150](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[evaluate reverse polish notation](java/src/main/150EvalReversePolishNotation/question.md)|[Java](java/src/main/150EvalReversePolishNotation/solution.java)|medium|
 |[151](https://leetcode.com/problems/reverse-words-in-a-string/)|[reverse words in string](java/src/main/reverseWordsInStr/question.md)|[Java](java/src/main/reverseWordsInStr/solution.java)|medium|
 |[152](https://leetcode.com/problems/maximum-product-subarray/)|[maximum prod subarray](java/src/main/152MaxProdSubArray/question.md)|[Java - DP](java/src/main/152MaxProdSubArray/solution.java)<br/>[Java - two arrays](java/src/main/152MaxProdSubArray/originalSolution.java)|medium|
