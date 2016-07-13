@@ -138,7 +138,7 @@
 |[134](https://leetcode.com/problems/gas-station/)|[Gas Station](java/src/main/134GasStation/question.md)|[Java](java/src/main/134GasStation/solution.java)|medium|
 |[135](https://leetcode.com/problems/candy/)|[candy](java/src/main/135candy/question.md)|[Java - space O(3N), time O(3N)](java/src/main/135candy/CandySpance3NTime3N.java)<br/>[Java - space O(1), time O(N)](java/src/main/135candy/CandySpace1TimeN.java)|hard|
 |[136](https://leetcode.com/problems/single-number/)|[single number](./java/src/main/singleNumber/question.md)| [Java - time O(n) space O(1)](./java/src/main/singleNumber/singleNumber.java)<br/>[Java - HashSet](java/src/main/singleNumber/hashset.java)<br/>[C++](./cpp/136SingleNumber.cpp )| medium |
-|[137](https://leetcode.com/problems/single-number-ii/)|[Single Number II](java/src/main/singleDigitII/question.md)|[C++](./cpp/137SingleNumberII.cpp)<br>[Java](java/src/main/singleDigitII/solution.java)|medium|
+|[137](https://leetcode.com/problems/single-number-ii/)|[Single Number II](java/src/main/singleDigitII/question.md)|[C++](./cpp/137SingleNumberII.cpp)<br>[Java](java/src/main/singleDigitII/solution.java)<br/>[Java O(n)](/java/src/main/singleDigitII/solution2.java)|medium|
 |[138](https://leetcode.com/problems/copy-list-with-random-pointer/)|[copy list with random pointer](java/src/main/138CopyListWithRandomPointer/question.md)|[Java](java/src/main/138CopyListWithRandomPointer/solution.java)|hard|
 |[139](https://leetcode.com/problems/word-break/)|[word break](java/src/main/139WordBreak/question.md)|[Java](java/src/main/139WordBreak/solution.java)|medium|
 |[140](https://leetcode.com/problems/word-break-ii/)|[word break II](java/src/main/140WordBreakII/question.md)|[Java -DP](java/src/main/140WordBreakII/solution.java)|hard|
