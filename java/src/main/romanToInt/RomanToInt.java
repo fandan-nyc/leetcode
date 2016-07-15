@@ -1,17 +1,14 @@
 public class Solution {
     public int romanToInt(String s) {
-        Map<Character, Integer> romanStrMap = getRomanStrMap();
-        int result  = 0; 
-        if(s == null || s.length() == 0)
-        {
-            return result;
-        }
-        int tmp = 10000; 
-        for(int i = 0; i < s.length(); i ++)
-        {
-            int curr = romanStrMap.get(s.charAt(i));
-            result += (curr > tmp) ? ( - tmp*2 + curr):  curr;
-            tmp = curr;
+        Map<Character, Integer> romanMap = getRomanStrMap();
+        int result = romanMap.get(s.charAt(0)); 
+        for(int i = 1; i < s.length(); i++){
+            int curr =  romanMap.get(s.charAt(i));
+            int prev  = romanMap.get(s.charAt(i-1));
+            result += curr;
+            if(curr > prev){
+                result -= prev *2;
+            }
         }
         return result;
     }
@@ -28,5 +25,4 @@ public class Solution {
              romanIntMap.put('M',1000);
       return romanIntMap;
     }
-    
 }
