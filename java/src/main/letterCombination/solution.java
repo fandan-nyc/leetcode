@@ -1,37 +1,44 @@
 public class Solution {
     public List<String> letterCombinations(String digits) {
-        
-        if(digits == null || digits.length() == 0)
-            return new ArrayList();
-        List<String> result = convertNumberToAlpha(digits.charAt(0));
-        for(int i = 1; i < digits.length();i++)
-        {
-            result = letterCombinationsHelper(result, digits.charAt(i));
+        List<String> result = new ArrayList<String>(); 
+        if(digits == null || digits.length() == 0){
+            return result;
         }
-        return result ;
-        
-    }
-    
-    private List<String> letterCombinationsHelper(List<String> input, char i)
-    {
-        List<String> alphas = convertNumberToAlpha(i);
-        List<String> result = new ArrayList<String>();
-        for(String k: alphas){
-            for(String j: input)
-                result.add(j + k);
-        }
+        backtracking(result, new StringBuilder(), digits.toCharArray(), 0);
         return result;
     }
     
-    private List<String> convertNumberToAlpha(char i)
-    {
-        char start = (char)((i-'2') *3 + 'a');
-        if(i > '7')
-            start++;
-        if(i < '7' || i == '8')
-            return Arrays.asList(""+start, ""+(char)(start+1), ""+(char)(start+2));
-        else
-            return Arrays.asList(""+start, ""+(char)(start+1), ""+(char)(start+2), ""+(char)(start+3));
+    private void backtracking(List<String> result, StringBuilder sb, char[] digits, int start){
+        if(start == digits.length){
+            result.add(new String(sb));
+            return ; 
+        }
+        List<Character> curr = intToCharList(digits[start]);
+        for(char i: curr){
+            sb.append(i);
+            backtracking(result, sb, digits, start+1);
+            sb.deleteCharAt(sb.length()-1);
+        }
     }
     
+    private List<Character> intToCharList( char  input){
+        List<Character> result = new ArrayList<Character>();
+        if(input < '2' || input > '9'){
+            return result;
+        }
+        char start = 'a';
+        int total = 3;
+        start = (char)(start + (input - '2') * 3);
+        if(input >='8' && input <= '9'){
+            start += 1;
+        }
+        if(input == '7' || input == '9'){
+            total = 4;
+        }
+        for(int i = 0; i < total; i++){
+            result.add(start);
+            start++;
+        }
+        return result;
+    }
 }
