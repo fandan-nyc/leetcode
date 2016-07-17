@@ -28,5 +28,4 @@ public class Solution {
         StringBuilder sb = new StringBuilder(s);
         return sb.reverse().toString();
     }
-    
 }
