@@ -1,32 +1,20 @@
 public class Solution {
     public int divide(int dividend, int divisor) {
-        if(divisor == 0)
+        if(divisor == 0 || (dividend == Integer.MIN_VALUE && divisor == -1)){
             return Integer.MAX_VALUE;
-        long dividendL = Math.abs((long) dividend);
-        long divisorL = Math.abs((long) divisor);
-        int counter = 1; 
-        long result = 0 ;
-        while(dividendL >= divisorL){
-            while(dividendL >= (divisorL << counter)){
-                counter++;
+        }
+        boolean negative = (dividend < 0) ^ (divisor < 0);
+        long dividendLong = (dividend > 0 ? 1: -1) * (long) dividend;
+        long divisorLong  = (divisor > 0 ?  1: -1) * (long) divisor;
+        int counter = 0; 
+        while(dividendLong >= divisorLong){
+            int tmp = 0;
+            while(dividendLong >= (divisorLong << tmp)){
+                tmp ++;
             }
-            counter --; 
-            result += ((long)1 << counter);
-            dividendL -= (divisorL <<counter);
-            counter = 1;
+            dividendLong -= (divisorLong << (tmp -1));
+            counter += (1 << (tmp-1));
         }
-        return getResult(dividend, divisor, result);
-    }
-    
-    private int getResult(int dividend, int divisor, long result){
-         if((dividend > 0 && divisor > 0) ||(dividend < 0 && divisor < 0)){
-             if(result >= Integer.MAX_VALUE)
-                return Integer.MAX_VALUE;
-            return (int)result;
-        }
-        result = -1 * result;
-        if( result <= Integer.MIN_VALUE)
-                return Integer.MIN_VALUE;
-        return (int)result;       
+        return (negative ? -1: 1) * counter;
     }
 }
