@@ -37,8 +37,8 @@
 |[033](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Search in Rotated Sorted Array](java/src/main/33searchInRotatedList/question.md)|[Java](java/src/main/33searchInRotatedList/solution.java)|hard|
 |[034](https://leetcode.com/problems/search-for-a-range/)|[search for a range](java/src/main/34SearchForRange/question.md)|[Java](java/src/main/34SearchForRange/solution.java)|medium|
 |[035](https://leetcode.com/problems/search-insert-position/)|[Search Insert Position](java/src/main/searchInsertionPosition/question.md)|[C++](./cpp/035SearchInsertPosition.cpp)<br>[Java - O(n)](java/src/main/searchInsertionPosition/solution1.java)<br>[Java - O(logn)](java/src/main/searchInsertionPosition/solution2.java)| easy|
-|[036](https://leetcode.com/problems/valid-sudoku/)|[valid sudoku](java/src/main/validSudoku/question.java)|[Java](java/src/main/validSudoku/solution.java)|easy|
-|[037](https://leetcode.com/problems/sudoku-solver/)</br>[Java - O(n*n)](java/src/main/validSudoku/solution2.java)|[sudoku solver](java/src/main/37SudokuSolver/question.md)|[Java - backtracking](java/src/main/37SudokuSolver/solution.java)|hard|
+|[036](https://leetcode.com/problems/valid-sudoku/)|[valid sudoku](java/src/main/validSudoku/question.java)|[Java](java/src/main/validSudoku/solution.java)<br/>[Java - O(n*n)](java/src/main/validSudoku/solution2.java)|easy|
+|[037](https://leetcode.com/problems/sudoku-solver/)|[sudoku solver](java/src/main/37SudokuSolver/question.md)|[Java - backtracking](java/src/main/37SudokuSolver/solution.java)|hard|
 |[038](https://leetcode.com/problems/count-and-say/)|[count and say](java/src/main/38CountAndSay/question.md)|[Java](java/src/main/38CountAndSay/38CountAndSay.java)|easy|
 |[039](https://leetcode.com/problems/combination-sum/)|[combination sum](java/src/main/39CombinationSum/question.md)|[Java - backtracking](java/src/main/39CombinationSum/solution.java)|medium|
 |[040](https://leetcode.com/problems/combination-sum-ii/)|[combination sum II](java/src/main/40CombinationSumII/question.md)|[Java](java/src/main/40CombinationSumII/solution.java)|medium|
