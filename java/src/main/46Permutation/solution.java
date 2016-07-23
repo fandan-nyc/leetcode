@@ -1,29 +1,23 @@
 public class Solution {
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
-        helper(nums, result, new ArrayList<Integer>());
+        boolean[] visited = new boolean[nums.length];
+        backtracking(result, new ArrayList<Integer>(), nums, visited);
         return result;
     }
     
-    
-    private void helper(int[] nums, List<List<Integer>> result, List<Integer> item){
-        if(item.size() == nums.length){
-            result.add(new ArrayList<Integer>(item));
-            return;
+    private void backtracking(List<List<Integer>> result, List<Integer> curr, int[] nums, boolean[] visited){
+        if(curr.size() == nums.length){
+            result.add( new ArrayList<Integer>(curr));
         }
-        for(int i: nums){
-            if(validateItem(i, item)){
-                helper(nums, result, item);
-                item.remove(item.size()-1);
+        for(int i = 0 ; i < nums.length;i++){
+            if(!visited[i]){
+                curr.add(nums[i]);
+                visited[i] = true;
+                backtracking(result, curr, nums, visited);
+                curr.remove(curr.size()-1);
+                visited[i] = false;
             }
-        }
-    }
-    
-    private boolean validateItem(int ele, List<Integer> item){
-        if( item.contains(ele)){
-            return false;
-        }else{
-            return item.add(ele);
         }
     }
 }
