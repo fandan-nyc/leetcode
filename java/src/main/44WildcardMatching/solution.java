@@ -1,5 +1,7 @@
 public class Solution {
     public boolean isMatch(String s, String p) {
+        // time complexity is O(m*n)
+        // space is O(1)
         if(s == null || p == null){
             return false;
         }
