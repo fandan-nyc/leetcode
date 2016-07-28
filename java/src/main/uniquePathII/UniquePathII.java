@@ -1,36 +1,23 @@
 public class Solution {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
-        int n =  obstacleGrid[0].length;
-        int[] result = new int[n];
-        int m = obstacleGrid.length;
-        for(int i = 0; i < n; i++ )
-        {
-            if(obstacleGrid[0][i]== 1 || (i>= 1 && result[i-1] == 0))
-            {
-                result[i] = 0;
-            }
-            else 
-            {
-                result[i] = 1;
+        final int m =  obstacleGrid.length;
+        final int n = obstacleGrid[0].length;
+        int[] dp = new int[n];
+        Arrays.fill(dp, 1);
+        for(int i = 0; i < obstacleGrid[0].length; i++){
+            if(obstacleGrid[0][i] == 1 || (i > 0 && dp[i-1]== 0)){
+                dp[i]= 0;
             }
         }
-        int i = 1;
-        while(i < m)
-        {
-            for(int j = 0; j < n; j ++)
-            {
-                if(obstacleGrid[i][j] == 1)
-                {
-                    result[j] = 0;
-                }
-                else
-                {
-                    result[j] += (j == 0) ? 0: result[j-1];
+        for(int i = 1; i < m; i ++){
+            for(int j = 0; j < n; j++){
+                if(obstacleGrid[i][j] == 1){
+                    dp[j] = 0;
+                }else if(j > 0){
+                    dp[j] = dp[j-1] + dp[j];
                 }
             }
-            i++;
         }
-        return result[n-1];
-        
+        return dp[n-1];
     }
 }
