@@ -10,7 +10,7 @@ public class Solution {
             result.add(new ArrayList<Integer>(tmp));
             return;
         }
-        for(int i = start; i <= n; i++){
+        for(int i = start; i <= n-k+1; i++){
             tmp.add(i);
             backtracking(result, tmp, n,k-1, i+1);
             tmp.remove(tmp.size()-1);
