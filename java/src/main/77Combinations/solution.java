@@ -1,19 +1,19 @@
 public class Solution {
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
-        helper(n, k, 1, result, new LinkedList<Integer>());
+        backtracking(result, new ArrayList<Integer>(), n,k, 1);
         return result;
     }
     
-    private void helper(int n, int k, int start,  List<List<Integer>> result, LinkedList<Integer> tmp){
-        if(tmp.size() == k ){
+    private void backtracking(List<List<Integer>> result, List<Integer> tmp, int n, int k,  int start){
+        if(k == 0){
             result.add(new ArrayList<Integer>(tmp));
             return;
         }
         for(int i = start; i <= n; i++){
-                tmp.addLast(i);
-                helper(n, k,  i+1, result, tmp);
-                tmp.removeLast();
-            }
+            tmp.add(i);
+            backtracking(result, tmp, n,k-1, i+1);
+            tmp.remove(tmp.size()-1);
+        }
     }
 }
