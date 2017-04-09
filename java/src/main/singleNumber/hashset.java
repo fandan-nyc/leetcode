@@ -12,3 +12,24 @@ public class Solution {
         return result.iterator().next();
     }
 }
+// another way
+ class Solution1 {
+    public int singleNumber(int[] nums) {
+        Map<Integer, Integer> store = new HashMap<Integer, Integer>();
+        for (int j = 0; j < nums.length; j ++){
+            int i = nums[j];
+            if(store.containsKey(i)){
+                store.put(i, store.get(i)+1);
+            }
+            else{
+                store.put(i,1);
+            }
+        }
+        for(Integer i: store.keySet()){
+            if(store.get(i) == 1){
+                return i;
+            }
+        }
+        return -1;
+    }
+}
