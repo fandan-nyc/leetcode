@@ -15,3 +15,22 @@ public class Solution {
         return result;
     }
 }
+
+// better way
+ class BetterSolution {
+    public int majorityElement(int[] nums) {
+        int result = 0; 
+        for(int i = 0; i < 32; i++){
+            int counter = 0;
+            for(int j: nums){
+                if( ((j >> i) & 1) == 1)
+                    counter++;
+                if(counter > nums.length / 2){
+                    result |= (1 << i);
+                    break;
+                }
+            }
+        }
+        return result;
+    }
+}
