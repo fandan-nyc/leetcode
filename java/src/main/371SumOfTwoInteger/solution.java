@@ -1,25 +1,15 @@
 public class Solution {
     public int getSum(int a, int b) {
-        int count = 0; 
         int carryOver = 0;
-        int result = 0;
-        while( count <= 31){
-            int aBit = a & 1;
-            int bBit = b & 1;
-            a = a >>> 1;
-            b = b >>> 1;
-            int digit = aBit ^ bBit ^ carryOver;
-            result |= digit<< count; 
-            if(aBit== 1 && bBit == 1){
-                carryOver = 1;
-            }else if(aBit == 1 && carryOver == 1){
-                carryOver = 1;
-            }else if(bBit == 1 && carryOver == 1){
-                carryOver = 1;
-            }else{
-                carryOver = 0;
-            }
-            count++;
+        int result = 0; 
+        for(int i = 0; i < 32; i++){
+            int aTmp = a & 1;
+            int bTmp = b & 1;
+            int currentDigit =  aTmp ^ bTmp ^ (carryOver);
+            result |= currentDigit << i;
+            a >>>= 1;
+            b >>>= 1;
+            carryOver = ( aTmp & bTmp) | (aTmp & carryOver) | (bTmp & carryOver); 
         }
         return result;
     }
