@@ -240,7 +240,7 @@
 |[306](https://leetcode.com/problems/additive-number/)|[additive number](java/src/main/306AdditiveNumber/question.md)|[Java](java/src/main/306AdditiveNumber/solution.java)|hard|
 |[312](https://leetcode.com/problems/burst-balloons/)|[burst ballons](java/src/main/312burstBallons/question.md)|[Java - DP](java/src/main/312burstBallons/solution.java)|hard|
 |[313](https://leetcode.com/problems/super-ugly-number/)|[super ugly number](java/src/main/313SuperUglyNumber/question.md)|[Java](java/src/main/313SuperUglyNumber/solution.java)|medium|
-|[318](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[max product of the word length](java/src/main/maxProductOfWordLength/question.md)|[Java](java/src/main/maxProductOfWordLength/solution.java)|medium|
+|[318](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[max product of the word length](java/src/main/318MaxProductOfWordLength/question.md)|[Java](java/src/main/318MaxProductOfWordLength/solution.java)|medium|
 |[319](https://leetcode.com/problems/bulb-switcher/)|[bulb switcher](java/src/main/bulbSwitcher/question.md)|[Java - solution 1 slow](java/src/main/bulbSwitcher/solution1.java)<br/>[Java - solution 2 fast](java/src/main/bulbSwitcher/solution2.java)|medium|
 |[322](https://leetcode.com/problems/coin-change/)|[coin change](java/src/main/322CoinChange/question.md)|[Java - DP](java/src/main/322CoinChange/solution.java)|medium|
 |[326](https://leetcode.com/problems/power-of-three/)|[power of three](java/src/main/powerOfThree/question.md)|[Java - recur](java/src/main/powerOfThree/recur.java)<br>[Java - iter](java/src/main/powerOfThree/iter.java)<br/>[C++](./cpp/326PowerOfThree.cpp)|easy|
