@@ -19,8 +19,7 @@ public class Solution {
             i++;
             j--;
         }
-        return true;
-        
+        return true;   
     }
     
     private boolean isValid(char x){
