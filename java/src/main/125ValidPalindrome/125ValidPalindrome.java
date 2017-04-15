@@ -1,38 +1,29 @@
 public class Solution {
     public boolean isPalindrome(String s) {
-        if(s == null || s.length() <= 1)
-            return true;
-        int low = 0;
-        int high = s.length() -1;
+        if(s == null){
+            return false;
+        }
         s = s.toLowerCase();
-        while(low <= high){
-            while(high >= low && !isValid(s.charAt(high))){
-                high--;
+        int i = 0;
+        int j = s.length()-1;
+        while(i < j){
+            while( i < j && isValid(s.charAt(i)) == false){
+                i++;
             }
-             while( low <= high && !isValid(s.charAt(low))){
-                low++;
+            while(i < j && isValid(s.charAt(j)) == false){
+                j--;
             }
-            if(high < low){
-                return true;
-            }
-            if(Character.toLowerCase(s.charAt(high)) != Character.toLowerCase(s.charAt(low))){
+            if(i < j && s.charAt(i) != s.charAt(j)){
                 return false;
             }
-            low++;
-            high --;
+            i++;
+            j--;
         }
         return true;
+        
     }
     
-    private boolean isAlphabetical(char s){
-        return (s >= 'a' && s <= 'z') || (s >= 'A' && s <='Z'); 
-    }
-    
-    private boolean isNum(char s){
-        return s >= '0' && s <= '9';
-    }
-    
-    private boolean isValid(char s){
-        return isAlphabetical(s) || isNum(s);
+    private boolean isValid(char x){
+        return   (x >= 'a' && x <='z') || (x >= 'A' && x <= 'Z') || (x >= '0' && x <= '9');
     }
 }
