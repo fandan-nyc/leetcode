@@ -1,28 +1,28 @@
 public class Solution {
-    private static final List<Character> vowels =  Arrays.asList('a','e','i','o','u','A','E','I','O','U');
+    private final List<Character> vowels = Arrays.asList('a','e','i','o','u','A','E','I','O','U');
+    
     public String reverseVowels(String s) {
-        char[] sArr = s.toCharArray();
-        int left = 0 ; 
-        int right = s.length()-1;
-        while(left < right){
-            while(left <= right && !vowels.contains(sArr[left])){
-                ++left;
+        char[] result = s.toCharArray();
+        int start = 0; 
+        int end = s.length() -1; 
+        while(start < end){
+            while(start < s.length() && isVowel(s.charAt(start)) == false){
+                start++;
             }
-            while(left <= right && !vowels.contains(sArr[right])){
-                --right;
+            while(end >= 0 && isVowel(s.charAt(end)) == false){
+                end--;
             }
-            if(left < right){
-                swap(sArr, left,right);
+            if(start < end){
+                result[start] = s.charAt(end);
+                result[end] = s.charAt(start);
+                start++;
+                end--;
             }
-            ++left;
-            --right;
         }
-        return new String(sArr);
+        return new String(result);
     }
     
-    private void swap(char[] arr, int i, int j){
-        char tmp = arr[i];
-        arr[i]= arr[j];
-        arr[j] = tmp;
+    private boolean isVowel(char i){
+        return vowels.contains(i);
     }
 }
