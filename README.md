@@ -238,6 +238,7 @@
 |[303](https://leetcode.com/problems/range-sum-query-immutable/)|[range sum query](java/src/main/rangeSumQuery/question.md)|[Java](java/src/main/rangeSumQuery/solution.java)|easy|
 |[304](https://leetcode.com/problems/range-sum-query-2d-immutable/)|[Range Sum Query 2D - Immutable](java/src/main/304RangeSumQuery2DImmutable/question.md)|[Java - DP](java/src/main/304RangeSumQuery2DImmutable/solution.java)|medium|
 |[306](https://leetcode.com/problems/additive-number/)|[additive number](java/src/main/306AdditiveNumber/question.md)|[Java](java/src/main/306AdditiveNumber/solution.java)|hard|
+|[307](https://leetcode.com/problems/range-sum-query-mutable/#/description)|[range sum query mutable](java/src/main/307RangeSumQueryMutable/question.md)|[Java - Binary Index Tree](java/src/main/307RangeSumQueryMutable/solution.java)|medium|
 |[312](https://leetcode.com/problems/burst-balloons/)|[burst ballons](java/src/main/312burstBallons/question.md)|[Java - DP](java/src/main/312burstBallons/solution.java)|hard|
 |[313](https://leetcode.com/problems/super-ugly-number/)|[super ugly number](java/src/main/313SuperUglyNumber/question.md)|[Java](java/src/main/313SuperUglyNumber/solution.java)|medium|
 |[318](https://leetcode.com/problems/maximum-product-of-word-lengths/)|[max product of the word length](java/src/main/318MaxProductOfWordLength/question.md)|[Java](java/src/main/318MaxProductOfWordLength/solution.java)|medium|
