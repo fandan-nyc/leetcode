@@ -16,6 +16,8 @@
  * }
  */
 public class Solution {
+    // time complexity, O(N), N is the nubmer of nested element [[[[1]]],2] should be 5
+    // space complexity, the deepest nested ele
     public int depthSum(List<NestedInteger> nestedList) {
         if(nestedList == null){
             return 0;
