@@ -279,5 +279,5 @@
 |[405](https://leetcode.com/problems/convert-a-number-to-hexadecimal/#/description)|[convert number to hex](java/src/main/405ConvertNumberToHex/question.md)|[Java - 1](java/src/main/405ConvertNumberToHex/solution1.java)<br>[Java - 2](java/src/main/405ConvertNumberToHex/solution2.java)|easy|
 |[461](https://leetcode.com/problems/hamming-distance/#/description)|[hamming distance](java/src/main/461HammingDistance/question.md)|[Java - Solution 1](java/src/main/461HammingDistance/solution.java)<br/>[Java - alternative](java/src/main/461HammingDistance/solution1.java)|easy|
 |[476](https://leetcode.com/problems/number-complement/#/description)|[number complement](java/src/main/476NumberComplement/question.md)|[Java - Solution 1](java/src/main/476NumberComplement/solution.java) <br> [Java - Java API](java/src/main/476NumberComplement/solution1.java)|easy|
-|[544](https://leetcode.com/problems/output-contest-matches/#/description)|[Output Contest Matches](java/src/main/544OutputContestMatches/question.md)|[Java - Solution]((java/src/main/544OutputContestMatches/solution1.java)|medium|
+|[544](https://leetcode.com/problems/output-contest-matches/#/description)|[Output Contest Matches](java/src/main/544OutputContestMatches/question.md)|[Java - Solution](java/src/main/544OutputContestMatches/solution1.java)|medium|
 
