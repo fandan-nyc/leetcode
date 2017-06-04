@@ -301,3 +301,4 @@
 |[476](https://leetcode.com/problems/number-complement/#/description)|[number complement](java/src/main/476NumberComplement/question.md)|[Java - Solution 1](java/src/main/476NumberComplement/solution.java) <br> [Java - Java API](java/src/main/476NumberComplement/solution1.java)|easy|
 |[544](https://leetcode.com/problems/output-contest-matches/#/description)|[Output Contest Matches](java/src/main/544OutputContestMatches/question.md)|[Java - Solution](java/src/main/544OutputContestMatches/solution1.java)|medium|
 |[545](https://leetcode.com/problems/boundary-of-binary-tree/#/description)|[boundary of binary tree](java/src/main/545BoundaryOfBinaryTree/quetion.md)|[Java - Solution](java/src/main/545BoundaryOfBinaryTree/solution1.java)|hard|
+|[561](https://leetcode.com/problems/array-partition-i/#/description)|[array partition I ](java/src/main/561ArrayPartitionI/question.md)|[Java - Quick Sort](java/src/main/561ArrayPartitionI/solution.java)|easy|
