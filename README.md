@@ -241,11 +241,7 @@
 |[270](https://leetcode.com/problems/closest-binary-search-tree-value/#/solutions)|[closest binary search tree](java/src/main/270ClosestBinarySearchTree/question.md)|[Java - recursive](java/src/main/270ClosestBinarySearchTree/solution1.java)<br> [Java - iterative](java/src/main/270ClosestBinarySearchTree/solution2.java)|easy|
 |[274](https://leetcode.com/problems/h-index/)|[H-index](java/src/main/274HIndex/question.md)|[Java - O(n)](java/src/main/274HIndex/solution-n.java)<br/>[Java - O(nlogn)](java/src/main/274HIndex/solution-nlogn.java)|medium|
 |[275](https://leetcode.com/problems/h-index-ii/)|[H-Index II](java/src/main/275HIndexII/question.md)|[Java - O(log(n))](java/src/main/275HIndexII/solution.java)|medium|
-|[277](https://leetcode.com/problems/find-the-celebrity/#/description)|[find
-celebrity](java/src/main/277FindCelebrity/question.md)|[Java - brute
-force O(n^2)](java/src/main/277FindCelebrity/solution1.java)<br>[Java -
-O(3n)](java/src/main/277FindCelebrity/solution2.java)<br>[Java -
-O(2n)](java/src/main/277FindCelebrity/solution3.java)|medium|
+|[277](https://leetcode.com/problems/find-the-celebrity/#/description)|[find celebrity](java/src/main/277FindCelebrity/question.md)|[Java - brute force O(n^2)](java/src/main/277FindCelebrity/solution1.java)<br>[Java - O(3n)](java/src/main/277FindCelebrity/solution2.java)<br>[Java - O(2n)](java/src/main/277FindCelebrity/solution3.java)|medium|
 |[278](https://leetcode.com/problems/first-bad-version/)| [first bad version](java/src/main/firstBadVersion/question.md)|[Java](java/src/main/firstBadVersion/FirstBadVersion.java)| easy|
 |[279](https://leetcode.com/problems/perfect-squares/)|[perfect square](java/src/main/279PerfectSquare/question.md)|[Java - DP](java/src/main/279PerfectSquare/solution.java)|medium|
 |[280](https://leetcode.com/problems/wiggle-sort/#/description)|[wiggle sort](java/src/main/280WiggleSort/question.md)|[java - O(n) greedy](java/src/main/280WiggleSort/solution.java)|medium|
