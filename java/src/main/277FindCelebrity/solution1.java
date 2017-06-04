@@ -1,6 +1,3 @@
-
-olean knows(int a, int b); */
-
 public class Solution extends Relation {
     public int findCelebrity(int n) {
         // brute force
