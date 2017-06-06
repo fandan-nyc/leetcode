@@ -15,3 +15,20 @@ public class Solution {
         return maxProfit;
     }
 }
+// another 
+public class Solution {
+    public int maxProfit(int[] prices) {
+        int max = 0;
+        int curr = 0; 
+        for(int i = 1; i < prices.length; i++){
+            int tmp = curr + prices[i] - prices[i-1];
+            if(tmp > 0){
+                curr = tmp;
+                max = max > curr ? max: curr;
+            }else{
+                curr = 0;
+            }
+        }
+        return max;
+    }
+}
