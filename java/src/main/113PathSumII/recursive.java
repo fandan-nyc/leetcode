@@ -10,21 +10,23 @@
 public class Solution {
     public List<List<Integer>> pathSum(TreeNode root, int sum) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
-        helper(root, sum, result, new ArrayList<Integer>());
+
+        if(root == null){
+            return result;
+        }else if(root.left == null && root.right == null && root.val == sum){
+            result.add(new ArrayList(Arrays.asList(root.val)));
+            return result;
+        }
+        List<List<Integer>> left = pathSum(root.left, sum - root.val);
+        List<List<Integer>> right = pathSum(root.right, sum - root.val);
+        for(List<Integer> i: left){
+            i.add(0, root.val);
+            result.add(i);
+        }
+        for(List<Integer> i: right){
+            i.add(0, root.val);
+            result.add(i);
+        }
         return result;
-    }
-    
-    private void helper(TreeNode root, int sum, List<List<Integer>> result, List<Integer>curr){
-        if(root == null ){
-            return;
-        }
-        if(root.left == null && root.right == null && sum ==  root.val){
-            curr.add(root.val);
-            result.add(curr);
-            return;
-        }
-        curr.add(root.val);
-        helper(root.left,  sum - root.val, result, new ArrayList<Integer>(curr));
-        helper(root.right, sum - root.val, result, new ArrayList<Integer>(curr));
     }
 }
