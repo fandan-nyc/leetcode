@@ -21,11 +21,11 @@ public class Solution {
         tmp.add(root.val);
         if(root.left == null && root.right == null && root.val == sum){
             result.add(new ArrayList<Integer>(tmp));
-            tmp.remove(tmp.size()-1);
-            return;
         }
-        helper(root.left, sum-root.val, result, tmp);
-        helper(root.right, sum-root.val, result, tmp);
+        else{
+            helper(root.left, sum-root.val, result, tmp);
+            helper(root.right, sum-root.val, result, tmp);
+        }
         tmp.remove(tmp.size()-1);
     }
 }
