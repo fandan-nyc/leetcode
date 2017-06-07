@@ -1,52 +1,50 @@
 public class Solution {
     public String reverseWords(String s) {
-        char[] arr = s.toCharArray();
+        s = s.trim();
+        char[] data = s.toCharArray();
+        data = removeExtraSpace(data);
+        reverse(data, 0, data.length-1);
         int start = 0;
-        int end = s.length()-1;
-        while(start < s.length() && arr[start] == ' '){
+        for(int i = 0; i < data.length; i++){
+            if(data[i] == ' '){
+                reverse(data, start, i-1);
+                start = i+1;
+            }
+        }
+        if(start < data.length){
+            reverse(data, start, data.length-1);
+        }
+        return new String(data);
+    }
+    
+    private char[] removeExtraSpace(char[] data){
+        int next = 0;
+        boolean remove = false;
+        for(int i = 0; i < data.length; i++){
+            if(i > 0 && data[i] == ' ' && data[i-1] == ' '){
+                remove = true;
+            }else{
+                remove = false;
+            }
+            if(remove == false){
+                data[next] = data[i];
+                next++;
+            }
+        }
+        return Arrays.copyOfRange(data, 0, next);
+    }
+    
+    private void reverse(char[] data, int start, int end){
+        while(start < end){
+            swap(data, start,end);
             start++;
-        }
-        while(end >= 0 && arr[end] == ' '){
-            end --;
-        }
-        if(start > end){
-            return new String("");
-        }
-        int i = start;
-        int j
-        while(i <= end){
-            if( arr[i] == ' ' && arr[i-1] == ' '){
-                int j = i;
-                while(j < end){
-                    arr[j] = arr[j+1];
-                    j++;
-                }
-                --i;
-                end--;
-            }
-            ++i;
-        }
-        reverse(arr,start, end);
-        for(int k = start; k <= end; k++){
-            int j = k;
-            while(j <= end && arr[j] !=' '){
-                j++;
-            }
-            reverse(arr,k,j-1);
-            k = j;
-        }
-        return new String(arr, start, end-start+1);
-    }
-    
-    private void reverse(char[] arr, int i, int j){
-        while(i < j){
-            swap(arr, i++,j--);
+            end--;
         }
     }
     
-    private void swap(char[] arr, int i , int j){
-        char tmp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = tmp;
+    private void swap(char[] data, int a, int b){
+        char tmp = data[a];
+        data[a] = data[b];
+        data[b] = tmp;
     }
 }
