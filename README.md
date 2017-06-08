@@ -70,7 +70,7 @@
 |[066](https://leetcode.com/problems/plus-one/)|[plus one](java/src/main/plusOne/question.md)|[java](java/src/main/plusOne/PlusOne.java)|easy|
 |[067](https://leetcode.com/problems/add-binary/)|[add binary](java/src/main/addBinary/question.md)|[Java](java/src/main/addBinary/solution.java)|easy|
 |[068](https://leetcode.com/problems/text-justification/)|[text justification](java/src/main/68TextJustification/question.md)|[Java](java/src/main/68TextJustification/solution.java)|hard|
-|[069](https://leetcode.com/problems/sqrtx/)|[sqrt(x)](java/src/main/69sqrt/question.md)|[Java - newton](java/src/main/69sqrt/solution.java)|medium|
+|[069](https://leetcode.com/problems/sqrtx/)|[sqrt(x)](java/src/main/69sqrt/question.md)|[Java - newton](java/src/main/69sqrt/solution.java)<br>[Java - binary search]((java/src/main/69sqrt/solution2.java))|easy|
 |[070](https://leetcode.com/problems/climbing-stairs/)|[climb stairs](java/src/main/climbStair/question.md)|[Java - iter](java/src/main/climbStair/iter.java)<br/>[C++](./cpp/070ClimbingStairs.cpp)|easy|
 |[071](https://leetcode.com/problems/simplify-path/)|[simplify path](java/src/main/71SimplifyPath/question.md)|[java](java/src/main/71SimplifyPath/SimplifyPath.java)|medium|
 |[072](https://leetcode.com/problems/edit-distance/)|[edit distance](java/src/main/72EditDistance/question.md)|[Java - O(m*n)](java/src/main/72EditDistance/solution.java)|hard|
