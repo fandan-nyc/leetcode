@@ -17,37 +17,31 @@
  */
 public class NestedIterator implements Iterator<Integer> {
 
-    Queue<Integer> head = new LinkedList<Integer>();
+    private final Queue<Integer> flattern ;
+    
     public NestedIterator(List<NestedInteger> nestedList) {
-        if(nestedList != null){
-            for(NestedInteger i: nestedList){
-                putNestedIntegerToQueue(i);
-            }
-        }
+        flattern = new LinkedList<>();
+        helper(nestedList, flattern);
     }
     
-    private void putNestedIntegerToQueue(NestedInteger input){
-        if(input.isInteger()){
-            head.add(input.getInteger());
-            return;
-        }
-        for(NestedInteger i: input.getList()){
-            putNestedIntegerToQueue(i);
+    private void helper(List<NestedInteger> nestedList, Queue<Integer> flattern){
+        for( NestedInteger i: nestedList){
+            if(i.isInteger()){
+                flattern.add(i.getInteger());
+            }else{
+                helper(i.getList(), flattern);
+            }
         }
     }
 
     @Override
     public Integer next() {
-        if(hasNext()){
-            return head.poll();
-        }
-        return null;
-        
+        return flattern.remove();
     }
 
     @Override
     public boolean hasNext() {
-        return !head.isEmpty();
+        return !flattern.isEmpty();
     }
 }
 
