@@ -10,7 +10,7 @@ public class Solution extends VersionControl {
                 int middle = (start + end) /2 ; 
                 if(isBadVersion(middle))
                 {
-                    end = middle;
+                    end = middle-1;
                 }
                 else
                 {
