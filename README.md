@@ -66,7 +66,7 @@
 |[063](https://leetcode.com/problems/unique-paths-ii/)|[unique path II](java/src/main/uniquePathII/question.md)|[Java](java/src/main/uniquePathII/UniquePathII.java)|medium|
 |[064](https://leetcode.com/problems/minimum-path-sum/)|[minimum path sum](java/src/main/minPathSum/question.md) |[Java - In place](java/src/main/minPathSum/MinPathSumInPlace.java)<br/>[Java - O(mn)](java/src/main/minPathSum/MinPathSumOn.java)<br/>[Java - O(n)](java/src/main/minPathSum/java-O(n).java)<br/>[C++](./cpp/064MinimumPathSum.cpp)| medium|
 |[065](https://leetcode.com/problems/valid-number/)|[valid number](java/src/main/65validNumber/question.md)|[Java](java/src/main/65validNumber/solution.java)|hard|
-|[066](https://leetcode.com/problems/plus-one/)|[plus one](java/src/main/66PlusOne/question.md)|[java](java/src/main/66PlusOne/PlusOne.java)|easy|
+|[066](https://leetcode.com/problems/plus-one/)|[plus one](java/src/main/66PlusOne/question.md)|[java](java/src/main/66PlusOne/PlusOne.java)<br>[Java - another](java/src/main/66PlusOne/solution2.java)|easy|
 |[067](https://leetcode.com/problems/add-binary/)|[add binary](java/src/main/addBinary/question.md)|[Java](java/src/main/addBinary/solution.java)|easy|
 |[068](https://leetcode.com/problems/text-justification/)|[text justification](java/src/main/68TextJustification/question.md)|[Java](java/src/main/68TextJustification/solution.java)|hard|
 |[069](https://leetcode.com/problems/sqrtx/)|[sqrt(x)](java/src/main/69sqrt/question.md)|[Java - newton](java/src/main/69sqrt/solution.java)<br>[Java - binary search](java/src/main/69sqrt/solution2.java)|easy|
