@@ -309,6 +309,7 @@
 |[389](https://leetcode.com/problems/find-the-difference/#/description)|[find the difference](java/src/main/389FindTheDifference/question.md)|[Java](java/src/main/389FindTheDifference/solution.java)|easy|
 |[393](https://leetcode.com/problems/utf-8-validation/#/description)|[UTF-8 validation](java/src/main/393UTF8Validation/question.md)|[Java](java/src/main/393UTF8Validation/solution1.java)|medium|
 |[397](https://leetcode.com/problems/integer-replacement/#/description)|[integer replacement](java/src/main/397IntegerReplacement/question.md)|[Java - 1](java/src/main/397IntegerReplacement/solution1.java)|medium|
+|[401](https://leetcode.com/problems/binary-watch/#/description)|[binary watch](java/src/main/401BinaryWatch/question.md)|[Java](java/src/main/401BinaryWatch/solution1.java)|easy|
 |[402](https://leetcode.com/problems/remove-k-digits/#/description)|[remove k digits](java/src/main/402RemoveKDigits/question.md)|[Java - Stack](java/src/main/402RemoveKDigits/solution1.java)|medium|
 |[404](https://leetcode.com/problems/sum-of-left-leaves/#/description)|[sum of leaves](java/src/main/404SumOfLeftLeaves/question.md)|[Java - recursive](java/src/main/404SumOfLeftLeaves/solution1.java)|medium|
 |[405](https://leetcode.com/problems/convert-a-number-to-hexadecimal/#/description)|[convert number to hex](java/src/main/405ConvertNumberToHex/question.md)|[Java - 1](java/src/main/405ConvertNumberToHex/solution1.java)<br>[Java - 2](java/src/main/405ConvertNumberToHex/solution2.java)|easy|
