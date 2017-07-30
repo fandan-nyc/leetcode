@@ -1,18 +1,15 @@
 public class Solution {
     public int uniquePaths(int m, int n) {
-        int[] result = new int[n];
-        for(int i = 0; i < n;i++)
-        {
-            result[i] = 1;
+        if(m < 0 || n < 0){
+            throw new IllegalArgumentException("m and n should be positive");
         }
-        while(m -- > 1)
-        {
-            for(int i = 1; i < n;i++)
-            {
-                result[i] = result[i] + result[i-1];
+        int[] dp = new int[n];
+        Arrays.fill(dp, 1);
+        for(int i = 1; i < m; i++){
+            for(int j = 1; j < n; j++){
+                dp[j] = dp[j] + dp[j-1];
             }
         }
-        return result[n-1];
-        
+        return dp[n-1];
     }
 }
