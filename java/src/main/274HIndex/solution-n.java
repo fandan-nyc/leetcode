@@ -1,3 +1,25 @@
+//counting sort
+public class Solution {
+    public int hIndex(int[] citations) {
+        if(citations == null || citations.length == 0){
+            return 0;
+        }
+        int[] count = new int[citations.length+1];
+        for(int i = 0; i < citations.length; i++){
+            count[Math.min(citations[i], citations.length)] ++;
+        }
+        int total = 0;
+        for(int i = citations.length; i >= 0 ; i--){
+            total += count[i];
+            if(total >= i){
+                return i;
+            }
+        }
+        return -1;
+    }
+}
+// the previous one work, but bad code
+
 public class Solution {
     public int hIndex(int[] citations) {
         if(citations ==  null || citations.length == 0){
