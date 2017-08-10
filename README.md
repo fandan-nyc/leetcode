@@ -49,7 +49,7 @@
 |[046](https://leetcode.com/problems/permutations/)|[Permuation](java/src/main/46Permutation/question.md)|[Java - backtracking](java/src/main/46Permutation/solution.java)|medium|
 |[047](https://leetcode.com/problems/permutations-ii/)|[Permutation II](java/src/main/47permutationII/question.md)|[Java](java/src/main/47permutationII/solution.java)|medium|
 |[048](https://leetcode.com/problems/rotate-image/)|[rotate image](java/src/main/48RotateImage/question.md)|[Java - In place](java/src/main/48RotateImage/solution.java)|medium|
-|[049](https://leetcode.com/problems/anagrams/)|[group anagrams](java/src/main/49GroupAnagrams/question.md)|[Java](java/src/main/49GroupAnagrams/solution.java)|medium|
+|[049](https://leetcode.com/problems/anagrams/)|[group anagrams](java/src/main/49GroupAnagrams/question.md)|[Java](java/src/main/49GroupAnagrams/solution.java)<br>[Java - sort str](java/src/main/49GroupAnagrams/solution1.java)|medium|
 |[050](https://leetcode.com/problems/powx-n/)|[power(x,n)](java/src/main/50PowXn/question.md)|[Java](java/src/main/50PowXn/solution.java)<br/>[Java](java/src/main/50PowXn/iterative.java)|medium|
 |[051](https://leetcode.com/problems/n-queens/)|[N-Queens](java/src/main/51NQueens/question.md)|[Java - Backtracking](java/src/main/51NQueens/solution.java)|hard|
 |[052](https://leetcode.com/problems/n-queens-ii/)|[N-queens II](java/src/main/52NQueens/question.md)|[Java](java/src/main/52NQueens/solution.java)|hard|
