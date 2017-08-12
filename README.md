@@ -1,5 +1,5 @@
 # LeetCode Questions And Answers
-| # | question | Answer |level|
+| # | question | Answer |level|https://leetcode.com/problems/zigzag-iterator/description/
 |---| ------------ | -------- | ---- |
 |[001](https://leetcode.com/problems/two-sum/)|[two sum](java/src/main/twoSum/question.md)|[Java - without hashMap](java/src/main/twoSum/twoSumArray.java)<br/>[Java space O(n) time O(n) - with HashMap](java/src/main/twoSum/twoSumHashMap.java)<br/>[Java - space O(1) time O(n*2)](java/src/main/twoSum/twoPasses.java)|easy|
 |[002](https://leetcode.com/problems/add-two-numbers/)|[add two numbers](java/src/main/addTwoNumbers/question.md)|[Java - O(n)](java/src/main/addTwoNumbers/solution2.java)<br/>[Java - O(n) better code](java/src/main/addTwoNumbers/solution.java)| medium|
@@ -251,6 +251,7 @@
 |[278](https://leetcode.com/problems/first-bad-version/)| [first bad version](java/src/main/firstBadVersion/question.md)|[Java](java/src/main/firstBadVersion/FirstBadVersion.java)| easy|
 |[279](https://leetcode.com/problems/perfect-squares/)|[perfect square](java/src/main/279PerfectSquare/question.md)|[Java - DP](java/src/main/279PerfectSquare/solution.java)|medium|
 |[280](https://leetcode.com/problems/wiggle-sort/#/description)|[wiggle sort](java/src/main/280WiggleSort/question.md)|[java - O(n) greedy](java/src/main/280WiggleSort/solution.java)|medium|
+|[281](https://leetcode.com/problems/zigzag-iterator/description/)|[zigzag iterator](java/src/main/281ZigZagIterator/quesiton.md)|[Java - Queue](java/src/main/281ZigZagIterator/solution1.java)|medium|
 |[282](https://leetcode.com/problems/expression-add-operators/)|[Expression Add Operator](java/src/main/282ExpressionAddOperator/question.md)|[Java](java/src/main/282ExpressionAddOperator/solution.java)|hard|
 |[283](https://leetcode.com/problems/move-zeroes/) |[move zeros](java/src/main/moveZero/question.md)| [Java O(n)](java/src/main/moveZero/MoveZeroSolution1.java)<br/> [Java - O(n) better sol](java/src/main/moveZero/MoveZeroBetter.java)<br/>[C++](./cpp/283MoveZeros.cpp)| easy |
 |[284](https://leetcode.com/problems/peeking-iterator/)|[peeking iterator](java/src/main/284PeekingIterator/question.md)|[Java](java/src/main/284PeekingIterator/solution.java)|medium|
