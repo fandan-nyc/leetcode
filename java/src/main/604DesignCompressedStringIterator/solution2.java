@@ -1,64 +1,57 @@
 public class StringIterator {
+    
+    private Node node ;
+    private Queue<Character> queue;
+    
 
-    Queue<Node> queue = new LinkedList<Node>();
-    
     public StringIterator(String compressedString) {
-        char curr ;
-        int len = compressedString.length();
-        for(int i = 0; i < len; i++){
-            if(!isNumber(compressedString, i)){
-                int num = getCharNum(compressedString, i+1);
-                queue.add(new Node(compressedString.charAt(i), num));
-            }
+        queue = new LinkedList<>();
+        for(char i: compressedString.toCharArray()){
+            queue.add(i);
         }
-    }
-    
-    private int getCharNum(String st, int pos){
-        if(pos >= st.length()){
-            return 1;
-        }
-        if(!isNumber(st, pos)){
-            return 1;
-        }else{
-            int number = 0; 
-            while(pos < st.length() && isNumber(st, pos)){
-                number = number * 10 + st.charAt(pos) - '0';
-                pos++;
-            }
-            return number ; 
-        }
-    }
-    
-    private boolean isNumber(String st, int pos){
-        return st.charAt(pos) >= '0' && st.charAt(pos) <= '9';
+        node = new Node('a',0);
     }
     
     public char next() {
-        if(queue.isEmpty()){
-            return ' ';
-        } else{
-            char res  = queue.peek().val;
-            queue.peek().count--;
-            if(queue.peek().count == 0){
-                queue.remove();
+        if(hasNext()){
+            if(node.count == 0){
+                char tmpVal = queue.remove();
+                int total = getNum(queue);
+                node.val = tmpVal;
+                node.count = total;   
             }
-            return res;
+            node.count--;
+            return node.val;
         }
+        return ' ';
+    }
+    
+    private boolean isNum(char a ){
+        return a >= '0' && a <= '9';
+    }
+    
+    private int getNum(Queue<Character> queue){
+        int total = 0;
+        while(queue.isEmpty() == false && isNum(queue.peek())){
+            total = total * 10 + (queue.remove() - '0');
+        }
+        return total;
     }
     
     public boolean hasNext() {
-        return queue.isEmpty() == false;
+        return !(node.count == 0 && queue.isEmpty());
     }
 }
 
 class Node {
-    public int count ; 
-    public char val;
-     
+    char val; 
+    int count;
+    
     Node(char val, int count){
         this.val = val;
         this.count = count;
     }
+    
 }
 
 /**
