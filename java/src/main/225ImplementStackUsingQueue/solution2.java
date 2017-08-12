@@ -1,34 +1,39 @@
 public class MyStack {
 
     /** Initialize your data structure here. */
-    Queue<Integer> stack ;
+    Queue<Integer> first; 
+    Queue<Integer> second;
     public MyStack() {
-      stack =  new LinkedList<>();
+        first = new LinkedList<>();
+        second = new LinkedList<>();
     }
     
     /** Push element x onto stack. */
     public void push(int x) {
-        int count  = stack.size();
-        stack.add(x);
-        while(count >0){
-            stack.add(stack.remove());
-            count--;
+        // push is O(n)
+        second.add(x);
+        while(first.isEmpty() == false){
+            second.add(first.remove());
         }
+        Queue<Integer> tmp = first;
+        first = second; 
+        second = tmp;
     }
     
     /** Removes the element on top of the stack and returns that element. */
     public int pop() {
-       return stack.remove();
+        // pop is O(1)
+        return first.remove();
     }
     
     /** Get the top element. */
     public int top() {
-        return stack.peek();
+        return first.peek();
     }
     
     /** Returns whether the stack is empty. */
     public boolean empty() {
-        return stack.isEmpty() ; 
+        return first.isEmpty() && second.isEmpty();
     }
 }
 
