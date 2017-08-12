@@ -1,5 +1,5 @@
 # LeetCode Questions And Answers
-| # | question | Answer |level|https://leetcode.com/problems/zigzag-iterator/description/
+| # | question | Answer |level|
 |---| ------------ | -------- | ---- |
 |[001](https://leetcode.com/problems/two-sum/)|[two sum](java/src/main/twoSum/question.md)|[Java - without hashMap](java/src/main/twoSum/twoSumArray.java)<br/>[Java space O(n) time O(n) - with HashMap](java/src/main/twoSum/twoSumHashMap.java)<br/>[Java - space O(1) time O(n*2)](java/src/main/twoSum/twoPasses.java)|easy|
 |[002](https://leetcode.com/problems/add-two-numbers/)|[add two numbers](java/src/main/addTwoNumbers/question.md)|[Java - O(n)](java/src/main/addTwoNumbers/solution2.java)<br/>[Java - O(n) better code](java/src/main/addTwoNumbers/solution.java)| medium|
