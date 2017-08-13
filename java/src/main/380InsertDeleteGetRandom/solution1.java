@@ -26,6 +26,8 @@ public class RandomizedSet {
         }
         int pos = map.get(val);
         if(pos < data.size()-1){
+            int tmp = data.get(data.size()-1);
+            map.put(tmp,pos);
             swap(data, pos, data.size()-1);
         }
         data.remove(data.size()-1);
@@ -36,7 +38,7 @@ public class RandomizedSet {
     private void swap(List<Integer> i, int a, int b){
         int tmp = i.get(a);
         i.set(a, i.get(b));
-        i.set(b,tmp);
+        i.set(b, tmp);
     }
     
     /** Get a random element from the set. */
