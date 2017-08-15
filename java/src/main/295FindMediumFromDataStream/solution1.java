@@ -6,23 +6,11 @@ public class MedianFinder {
     public void addNum(int num) {
         int start = 0; 
         int end = store.size()-1;
-        if(end == -1){
-            store.add(num);
-            return;
-        }
-        if(num <= store.get(0)){
-            store.add(0, num);
-            return;
-        }
-        if(num >= store.get(store.size()-1)){
-            store.add(num);
-            return;
-        }
         while(start <= end){
             int middle = start + (end-start) /2; 
             int middleVal = store.get(middle);
             if( middleVal == num){
-                store.add(middle, middleVal);
+                store.add(middle, middleVal);x
                 return;
             }else if( middleVal < num){
                 start = middle+1;
@@ -45,8 +33,3 @@ public class MedianFinder {
         return (double)(store.get(len/2));
     }
 };
-
-// Your MedianFinder object will be instantiated and called as such:
-// MedianFinder mf = new MedianFinder();
-// mf.addNum(1);
-// mf.findMedian();
