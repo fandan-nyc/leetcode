@@ -1,53 +1,36 @@
-
-
-public class Solution {
-    private static final List<Character> operators = Arrays.asList('+','-','*','/');
+class Solution {
     public List<Integer> diffWaysToCompute(String input) {
-        char[] inputChar = input.toCharArray();
-        boolean sign = true;
-        List<Integer> left ; 
-        List<Integer> right;
-        List<Integer> result = new ArrayList<Integer>();
-        int leftV ;
-        int rightV;
-        for(int i = 0; i < input.length();i++){
+        List<Integer> res = new ArrayList<>();
+        for(int i = 0; i < input.length(); i++){
             char curr = input.charAt(i);
-            if(operators.contains(curr)){
-                left =  diffWaysToCompute(input.substring(0,i));
-                right = diffWaysToCompute(input.substring(i+1,input.length()));
-                for(int j = 0; j < left.size();j++){
-                    for(int k = 0; k < right.size(); k++){
-                        leftV = left.get(j);
-                        rightV = right.get(k);
-                        switch(curr){
-                            case '+':
-                                result.add(leftV + rightV);
-                                break;
-                            case '-':
-                                result.add(leftV - rightV);
-                                break;
-                            case '*':
-                                result.add(leftV * rightV);
-                                break;
-                            case '/':
-                                result.add(leftV / rightV);
-                                break;
-                            default:
-                                throw new IllegalArgumentException("the char we have is not valid" );
-                        }
+            if(!isNum(curr)){
+                List<Integer> left = diffWaysToCompute(input.substring(0,i));
+                List<Integer> right = diffWaysToCompute(input.substring(i+1));
+                for(int k: left){
+                    for(int j: right){
+                        res.add(calc(k, j, curr));
                     }
                 }
-                sign = false;
+            }
         }
-    }
-    if(sign){
-        int tmp = 0;
-        for(int i  = 0 ; i < input.length();i++){
-            tmp = tmp * 10+ (input.charAt(i)-'0'); 
+        if(res.size() == 0){
+            res.add(Integer.valueOf(input));
         }
-        result.add(tmp);
+        return res;
+        
     }
-    return result;
-}
     
+    private boolean isNum(char i){
+        return i >= '0' && i <= '9';
+    }
+    
+    private int calc(int a, int b, char op){
+        if(op == '+'){
+            return a+b;
+        }else if(op == '-'){
+            return a-b;
+        }else {
+            return a*b;
+        }
+    }
 }
