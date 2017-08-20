@@ -1,47 +1,32 @@
-public class Solution {
+class Solution {
     public int evalRPN(String[] tokens) {
-        Stack<Integer> number = new Stack<Integer>(); 
+        Stack<Integer> stack = new Stack<>();
         for(String i: tokens){
-            if(isOperator(i)){
-                calculate(number, i);
+            if(!isOp(i)){
+                stack.push(Integer.valueOf(i));
+            }else{
+                int b = stack.pop();
+                int a = stack.pop();
+                stack.push(calc(a, b, i));
             }
-            else{
-                number.push(strToInt(i));
-            }
         }
-        assert number.isEmpty() == false && number.size() == 1;
-        return number.pop();
+        return stack.pop();
     }
     
-    private int strToInt(String input){
-        int result  = 0;
-        int sign = 1;
-        if(input.charAt(0) == '-'){
-            sign = -1;
-            input = input.substring(1);
-        }
-        for(char i: input.toCharArray()){
-            result = result * 10 + i - '0';
-        }
-        return result * sign;
+    private boolean isOp(String i){
+        return i.equals("+") || i.equals("-") || i.equals("*") || i.equals("/");
     }
     
-    private boolean isOperator(String s){
-        return s.equals("+") || s.equals("-")|| s.equals("*") || s.equals("/");
-    }
-    
-    private void calculate(Stack<Integer> num, String s){
-        int first = num.pop(); 
-        int second = num.pop();
-        if(s.equals("+")){
-            num.push(first +  second);   
-        }else if(s.equals("-")){
-            num.push(second - first);   
-        }else if(s.equals("*")){
-            num.push(first *  second);   
-        }else if(s.equals("/")){
-            num.push(second / first);   
+    private int calc(int a, int b, String op){
+        if(op.equals("+")){
+            return a+b;
         }
-        return;
-    }
+        else if(op.equals("-")){
+            return a-b;
+        }else if(op.equals("*")){
+            return a*b;
+        }else{
+            return a/b;
+        }
+    }   
 }
