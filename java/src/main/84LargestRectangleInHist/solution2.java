@@ -1,31 +1,24 @@
-public class Solution {
+class Solution {
+    int[][] dp;
     public int largestRectangleArea(int[] heights) {
-        if(heights == null || heights.length == 0 ){
-            return 0;
-        }else if(heights.length == 1){
-            return heights[0];
-        }
-        Stack<Integer> stack = new Stack<Integer>();
-        int max = 0;
+        Stack<Integer> pos = new Stack<>();
+        pos.push(-1);
+        int total = 0;
         for(int i = 0; i < heights.length; i++){
-            if(stack.isEmpty() || heights[i] >= heights[stack.peek()]){
-                stack.push(i);
+            if(pos.peek() == -1 || heights[i] > heights[pos.peek()]){
+                pos.push(i);
             }else{
-                while(stack.isEmpty() == false && heights[i] < heights[stack.peek()]){
-                    int currBar = stack.pop();
-                    int left = stack.isEmpty()? -1: stack.peek();
-                    int right = i;
-                    max = Math.max(max, (right - left -1) * heights[currBar]);
+                while(pos.peek() != -1 && heights[i]< heights[pos.peek()]){
+                    int currPos = pos.pop();
+                    total = Math.max(total, heights[currPos] * (i - pos.peek()-1));
                 }
-                stack.push(i);
+                pos.push(i);
             }
         }
-        while(stack.isEmpty() == false){
-            int currBar = stack.pop();
-            int left = stack.isEmpty()? -1: stack.peek();
-            int right = heights.length;
-            max = Math.max(max, (right - left -1) * heights[currBar]);
+        while(pos.peek() != -1){
+            int curr = pos.pop();
+            total = Math.max(total, heights[curr] * (heights.length - pos.peek()-1));
         }
-        return max;
+        return total;
     }
 }
