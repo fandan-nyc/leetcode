@@ -15,7 +15,7 @@ public class Solution {
     
     private boolean hasCircle(int input, List<Integer>[] map, int[] visited){
         /*
-         * the following part is import. so for the checked ones, we do not keep on checking the result.
+         * the following part is important. so for the checked ones, we do not keep on checking the result.
          * without the first two if check, the code works, but we do a lot of duplicated work and it will TLE
          *
          */
