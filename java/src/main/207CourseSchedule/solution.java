@@ -1,51 +1,47 @@
-public class Solution {
+class Solution {
+    boolean visited[];
+    boolean inStack[];
+    Map<Integer, List<Integer>> graph;
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        List<Integer>[] map = prepareMap(prerequisites, numCourses);
-        int[] visited =  new int[numCourses];
-        for( int i = 0; i < numCourses; i ++){
-            if(map[i].isEmpty()){
-                continue;
-            }
-            if(hasCircle(i, map, visited)){
-                return false;
+        visited = new boolean[numCourses];
+        inStack = new boolean[numCourses];
+        graph = prepareGraph(prerequisites);
+        for(int i = 0; i < numCourses; i++){
+            if(visited[i] == false){
+                if(hasCircle(i, visited, inStack)){
+                    return false;
+                }
             }
         }
         return true;
     }
     
-    private boolean hasCircle(int input, List<Integer>[] map, int[] visited){
-        /*
-         * the following part is important. so for the checked ones, we do not keep on checking the result.
-         * without the first two if check, the code works, but we do a lot of duplicated work and it will TLE
-         *
-         */
-        if(visited[input] == 2){
-            return false;
-        }
-        if(visited[input] == 1){
-            return true;
-        }
-        visited[input] = 1;
-        for(int i: map[input]){
-            if(visited[i] == 1){
-                return true;
-            }
-            if(hasCircle(i, map, visited)){
-                return true;
+    private boolean hasCircle(int i, boolean[] visited, boolean[] inStack){
+        // return true if there is circle
+        boolean res = false;
+        if(!visited[i]){
+            inStack[i] = true;
+            visited[i] = true;
+            if(graph.containsKey(i)){
+                for(int j: graph.get(i)){
+                    if(!visited[j] && hasCircle(j, visited, inStack)){
+                        res =  true;
+                    }else if(inStack[j]){
+                        res = true;
+                    }
+                }
             }
         }
-        visited[input] = 2;
-        return false;
+        inStack[i] = false;
+        return res;
     }
     
-    private  List<Integer>[] prepareMap(int[][] prerequisites, int num){
-        List<Integer>[] result = new List[num];
-        for(int i = 0; i < num; i ++){
-            result[i] = new ArrayList<Integer>();
+    private Map<Integer, List<Integer>> prepareGraph(int[][] pre){
+        Map<Integer, List<Integer>> data = new HashMap<>();
+        for(int[] i: pre){
+            data.putIfAbsent(i[1], new ArrayList<Integer>());
+            data.get(i[1]).add(i[0]);
         }
-        for(int[] x: prerequisites){
-            result[x[0]].add(x[1]);
-        }
-        return result ; 
+        return data;
     }
 }
