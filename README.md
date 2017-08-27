@@ -127,7 +127,7 @@
 |[124](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[binary tree max path sum](java/src/main/124BinaryTreeMaxPathSum/question.md)|[Java](java/src/main/124BinaryTreeMaxPathSum/solution.java)|hard|
 |[125](https://leetcode.com/problems/valid-palindrome/)|[valid palindrome](java/src/main/125ValidPalindrome/question.md)|[Java](java/src/main/125ValidPalindrome/125ValidPalindrome.java)<br>[Java - regex](java/src/main/125ValidPalindrome/betterSolution.java)|easy|
 |[126](https://leetcode.com/problems/word-ladder-ii/)|[word ladder II](java/src/main/126WordLadderII/question.md)|[Java](java/src/main/126WordLadderII/solution.java)|hard| 
-|[127](https://leetcode.com/problems/word-ladder/)|[word ladder](java/src/main/127WordLadder/question.md)|[Java](java/src/main/127WordLadder/solution.java)|medium|
+|[127](https://leetcode.com/problems/word-ladder/)|[word ladder](java/src/main/127WordLadder/question.md)|[Java](java/src/main/127WordLadder/solution.java)<br>[Java - graph]((java/src/main/127WordLadder/solution2.java))|medium|
 |[128](https://leetcode.com/problems/longest-consecutive-sequence/)|[Longest Consecutive Sequence](java/src/main/128LongestConsecutiveSequence/question.md)|[Java](java/src/main/128LongestConsecutiveSequence/solution1.java)|hard|
 |[129]()|[sum root to leaf numbers](java/src/main/129SumRootToLeafNum/question.md)|[Java - 1](java/src/main/129SumRootToLeafNum/solution1.java)<br/>[Java - 2](java/src/main/129SumRootToLeafNum/solution2.java)|medium|
 |[130](https://leetcode.com/problems/surrounded-regions/)|[surrounded regions](java/src/main/130surroundedRegions/question.md)|[Java](java/src/main/130surroundedRegions/solution.java)<br/>[Java - union find](java/src/main/130surroundedRegions/solution-union-find.java)|medium|
