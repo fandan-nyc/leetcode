@@ -1,49 +1,24 @@
-class Solution {
+public class Solution {
+    private int top, bottom, left, right;
     public int minArea(char[][] image, int x, int y) {
-        int row = image.length;
-        int col = image[0].length;
-        boolean[][] blackVisited = new boolean[row][col];
-        boolean[][] whiteVisited = new boolean[row][col];
-        return count(image, blackVisited, whiteVisited, x , y);
+        if(image.length == 0 || image[0].length == 0) return 0;
+        top = bottom = x;
+        left = right = y;
+        dfs(image, x, y);
+        return (right - left) * (bottom - top);
     }
-    
-    private int count(char[][] image, boolean[][] blackVisited, boolean[][] whiteVisited, int x, int y){
-        if(blackVisited[x][y]){
-            return 0;
-        }
-        int count = 0;
-        if(x > 0){
-            if(image[x-1][y] == 0 && whiteVisited[x-1][y] == false){
-                whiteVisited[x-1][y] = true;
-                count ++;
-            }else if(image[x-1][y] == 1){
-                count += count(image, blackVisited, whiteVisited, x-1, y);
-            }
-        }
-         if(x < image.length-1){
-            if(image[x+1][y] == 0 && whiteVisited[x+1][y] == false){
-                whiteVisited[x+1][y] = true;
-                count ++;
-            }else if(image[x+1][y] == 1){
-                count += count(image, blackVisited, whiteVisited, x+1, y);
-            }
-        }
-        if(y > 0){
-            if(image[x][y-1] == 0 && whiteVisited[x][y-1] == false){
-                whiteVisited[x][y-1] = true;
-                count ++;
-            }else if(image[x][y-1] == 1){
-                count += count(image, blackVisited, whiteVisited, x, y-1);
-            }
-        }
-        if(y < image[0].length -1){
-            if(image[x][y+1] == 0 && whiteVisited[x][y+1] == false){
-                whiteVisited[x][y+1] = true;
-                count ++;
-            }else if(image[x][y+1] == 1){
-                count += count(image, blackVisited, whiteVisited, x, y+1);
-            }
-        }
-        return count;
+    private void dfs(char[][] image, int x, int y){
+        if(x < 0 || y < 0 || x >= image.length || y >= image[0].length ||
+          image[x][y] == '0')
+            return;
+        image[x][y] = '0'; // mark visited black pixel as white
+        top = Math.min(top, x);
+        bottom = Math.max(bottom, x + 1);
+        left = Math.min(left, y);
+        right = Math.max(right, y + 1);
+        dfs(image, x + 1, y);
+        dfs(image, x - 1, y);
+        dfs(image, x, y - 1);
+        dfs(image, x, y + 1);
     }
 }
