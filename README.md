@@ -183,6 +183,7 @@
 |[177](https://leetcode.com/problems/nth-highest-salary/description/)|[Nth highest salary](sql/177NthHighestSalary/question.md)|[MySQL](sql/177NthHighestSalary/solution.sql)|medium|
 |[178](https://leetcode.com/problems/rank-scores/description/)|[salary rank](sql/178SalaryRank/question.md)|[MySQL](sql/178SalaryRank/solution.sql)||meduim|
 |[179](https://leetcode.com/problems/largest-number/)|[largest number](java/src/main/179LargestNumber/question.md)|[Java](java/src/main/179LargestNumber/solution.java)|medium|
+|[180](https://leetcode.com/problems/consecutive-numbers/description/)|[consecutive numbers](sql/180ConsecutiveNum/question.md)|[MySQL](sql/180ConsecutiveNum/solution.sql)|medium|
 |[182](https://leetcode.com/problems/duplicate-emails/#/description)|[duplicate email](java/src/main/182DuplicatedEmails/question.md)|[MySQL](java/src/main/182DuplicatedEmails/solution1.sql)|easy|
 |[186](https://leetcode.com/problems/reverse-words-in-a-string-ii/#/description)|[reverse words in string II](java/src/main/186reverseWordsInStringII/question.md)|[Java - Solution](java/src/main/186reverseWordsInStringII/solution.java)|medium|
 |[187](https://leetcode.com/problems/repeated-dna-sequences/)|[repeated DNA sequence](java/src/main/187repeatedDNASequence/question.md)|[Java](java/src/main/187repeatedDNASequence/solution1.java)<br/>[Java - Rolling Hash](java/src/main/187repeatedDNASequence/solution2.java)|medium|
