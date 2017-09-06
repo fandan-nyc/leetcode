@@ -180,6 +180,7 @@
 |[174](https://leetcode.com/problems/dungeon-game/)|[dungeon game](java/src/main/174dungeonGame/question.md)|[Java - DP, memorization](java/src/main/174dungeonGame/solution.java)|hard|
 |[175](https://leetcode.com/problems/combine-two-tables/description/)|[combine two tables](sql/175CombineTwoTables/question.md)|[MySQL - left join](sql/175CombineTwoTables/solution.sql)|easy|
 |[176](https://leetcode.com/problems/second-highest-salary/description/)|[second highest salary](sql/176SecondHighestSalary/question.md)|[MySQL - Offset](sql/176SecondHighestSalary/solution.sql)|easy|
+|[177](https://leetcode.com/problems/nth-highest-salary/description/)|[Nth highest salary](sql/177NthHighestSalary/question.md)|[MySQL](sql/177NthHighestSalary/solution.sql)|medium|
 |[179](https://leetcode.com/problems/largest-number/)|[largest number](java/src/main/179LargestNumber/question.md)|[Java](java/src/main/179LargestNumber/solution.java)|medium|
 |[182](https://leetcode.com/problems/duplicate-emails/#/description)|[duplicate email](java/src/main/182DuplicatedEmails/question.md)|[MySQL](java/src/main/182DuplicatedEmails/solution1.sql)|easy|
 |[186](https://leetcode.com/problems/reverse-words-in-a-string-ii/#/description)|[reverse words in string II](java/src/main/186reverseWordsInStringII/question.md)|[Java - Solution](java/src/main/186reverseWordsInStringII/solution.java)|medium|
