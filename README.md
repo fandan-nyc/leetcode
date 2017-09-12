@@ -403,4 +403,5 @@
 |[643](https://leetcode.com/problems/maximum-average-subarray-i/#/description)|[max average subarray I](java/src/main/643maxAvgSubarrayI/question.md)|[Java](java/src/main/643maxAvgSubarrayI/solution1.java)|easy|
 |[653](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)|[two sum IV](java/src/main/653TwoSumIV/question.md)|[Java - hashset](java/src/main/653TwoSumIV/solution1.java)<br>[Java - traversal](java/src/main/653TwoSumIV/solution2.java)|easy|
 |[657](https://leetcode.com/problems/judge-route-circle/description/)|[Judge Route Circle](java/src/main/657JudgeRouteCircle/question.md)|[Java](java/src/main/657JudgeRouteCircle/solution1.java)|easy|
+|[662](https://leetcode.com/problems/maximum-width-of-binary-tree/description/)|[max width of binary tree](java/src/main/662MaxWidthOfBinaryTree/question.md)|[Java - BFS](java/src/main/662MaxWidthOfBinaryTree/solution1.java)|medium|
 |[663](https://leetcode.com/problems/equal-tree-partition/description/)|[Equal Tree Partition](java/src/main/663EqualTreePartition/question.md)|[Java - dfs](java/src/main/663EqualTreePartition/solution1.java)|medium|
