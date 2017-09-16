@@ -200,6 +200,7 @@
 |[194](https://leetcode.com/problems/transpose-file/description/)|[transpose file](bash/194TransposeFile/question.md)|[Bash](bash/194TransposeFile/solution.sh)|medium|
 |[195](https://leetcode.com/problems/tenth-line/description/)|[tenth line](bash/195TenthLine/question.md)|[Bash](bash/195TenthLine/solution.sh)|easy|
 |[196](https://leetcode.com/problems/delete-duplicate-emails/description/)|[delete dup emails](sql/196DeleteDup/question.md)|[MySQL](sql/196DeleteDup/solution.sql)|easy|
+|[197](https://leetcode.com/problems/rising-temperature/description/)|[rise temprature](sql/197RiseTemp/question.md)|[MySQL](sql/197RiseTemp/solution.sql)|easy|
 |[198](https://leetcode.com/problems/house-robber/)|[house robber](java/src/main/houseRobber/question.md)|[Java DP](java/src/main/houseRobber/solution.java)<br>[Java better code](java/src/main/houseRobber/betterCode.java)<br/> [C++](./cpp/198HouseRobber.cpp)|easy|
 |[199](https://leetcode.com/problems/binary-tree-right-side-view/description/)|[binary tree right view](java/src/main/199BinaryTreeRightSideView/question.md)|[Java - BFS](java/src/main/199BinaryTreeRightSideView/solution1.java)<br>[Java - recursive](java/src/main/199BinaryTreeRightSideView/solution2.java)|medium|
 |[200](https://leetcode.com/problems/number-of-islands/)|[number of islands](java/src/main/200NumOfIslands/question.md)|[Java - DFS](java/src/main/200NumOfIslands/200NumOfIslands.java)|medium|
