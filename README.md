@@ -419,3 +419,4 @@
 |[661](https://leetcode.com/problems/image-smoother/description/)|[image smoother](java/src/main/661ImageSmoother/question.md)|[Java](java/src/main/661ImageSmoother/solution1.java)|easy|
 |[662](https://leetcode.com/problems/maximum-width-of-binary-tree/description/)|[max width of binary tree](java/src/main/662MaxWidthOfBinaryTree/question.md)|[Java - BFS](java/src/main/662MaxWidthOfBinaryTree/solution1.java)|medium|
 |[663](https://leetcode.com/problems/equal-tree-partition/description/)|[Equal Tree Partition](java/src/main/663EqualTreePartition/question.md)|[Java - dfs](java/src/main/663EqualTreePartition/solution1.java)|medium|
+|[669](https://leetcode.com/problems/trim-a-binary-search-tree/description/)|[trim bst](java/src/main/669TrimABST/question.md)|[Java - recursive](java/src/main/669TrimABST/solution1.java)|easy|
