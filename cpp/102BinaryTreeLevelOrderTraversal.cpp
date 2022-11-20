@@ -27,27 +27,25 @@ public:
         q.push(root);
         while(!q.empty())
         {
-            queue<TreeNode*> qq;
             vector<int> tmp;
-            while(!q.empty())
+            int n = q.size();
+            for(int i = 0; i<n; i++)
             {
                 TreeNode* cur = q.front();
                 q.pop();
                 tmp.push_back(cur->val);
                 if(cur->left)
                 {
-                    qq.push(cur->left);
+                    q.push(cur->left);
                 }
 
                 if(cur->right)
                 {
-                    qq.push(cur->right);
+                    q.push(cur->right);
                 }
             }
 
             ans.push_back(tmp);
-            swap(q, qq);
-
         }
         
         return ans;
