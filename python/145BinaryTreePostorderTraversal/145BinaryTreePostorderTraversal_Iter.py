@@ -24,7 +24,6 @@ class Solution:
                     #stack is reversed order, root is at the bottom of the stack
                     stack.append((root, True))
                     stack.append((root.right, False))
-                    #
                     stack.append((root.left, False))
                     
         return res
