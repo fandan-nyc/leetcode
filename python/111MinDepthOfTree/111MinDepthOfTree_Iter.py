@@ -12,8 +12,8 @@ class Solution:
         # DFS_Iter
         # if not root:
         #     return 0
-        # else:
-        #     stack = [(root, 1)]
+        
+        # stack = [(root, 1)]
         #     minDepth = math.inf
         
         # while stack:
@@ -30,8 +30,8 @@ class Solution:
         q = []
         if not root:
             return 0
-        else:
-            q.append((root, 1))
+        
+        q.append((root, 1))
         res = math.inf
 
         while q:
