@@ -39,7 +39,7 @@ class Solution:
         
         res = -math.inf
         while q:
-            curNode, curDepth = q.pop(-1)
+            curNode, curDepth = q.pop(0)
             if not curNode.left and not curNode.right:
                 res = max(res, curDepth)
             if curNode.left:
