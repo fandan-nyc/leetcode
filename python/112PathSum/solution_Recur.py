@@ -7,7 +7,7 @@
 class Solution:
     def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
         #Recur
-        res = self.traverse(root,0, targetSum)
+        res = self.traverse(root, 0, targetSum)
         return res
 
     def traverse(self, root, curSum, targetSum):
