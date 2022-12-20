@@ -19,7 +19,7 @@ Output: [1,2,3,4]
 
 Constraints:
 
-1 <= k <= arr.length
-1 <= arr.length <= 104
-arr is sorted in ascending order.
+1 <= k <= arr.length <br/>
+1 <= arr.length <= 104<br/>
+arr is sorted in ascending order.<br/>
 -104 <= arr[i], x <= 104
